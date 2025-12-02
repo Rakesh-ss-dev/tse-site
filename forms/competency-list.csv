@@ -1,0 +1,402 @@
+﻿AS400,AS/400 Concepts
+AS400,COBOL 400
+AS400,Control Language Programming
+AS400,DB2 and Program Design
+AS400,RPG 400
+AS400,RPG ILE 
+AS400,SQL 400
+CICD & Devops,Ansible
+CICD & Devops,ArgoCD
+CICD & Devops,Azure Devops
+CICD & Devops,Bazel
+CICD & Devops,Chef
+CICD & Devops,CloudFoundry
+CICD & Devops,"Containers - Kubernetes and Dockers, PODMAN"
+CICD & Devops,Devops Fundamentals
+CICD & Devops,"Devops with Cloud Platforms (AWS, Azure, Google, OCI)"
+CICD & Devops,DevsecOps
+CICD & Devops,"ELK Stack (Elastic Search, Log, Kibana)"
+CICD & Devops,Gatling
+CICD & Devops,Ghremlin
+CICD & Devops,"Git, GITHUB, Gitlab, Bitbucket"
+CICD & Devops,HELM
+CICD & Devops,Infrastructure as Code (IAC)
+CICD & Devops,"Jenkins, Bamboo"
+CICD & Devops,Logstash
+CICD & Devops,"Maven, Gradle"
+CICD & Devops,Observability
+CICD & Devops,Openshift
+CICD & Devops,Openstack
+CICD & Devops,"Prometheus, Grafana"
+CICD & Devops,Puppet
+CICD & Devops,Rancher
+CICD & Devops,Site Reliability Engineering (SRE)
+Cloud Computing,Amazon Web Services 
+Cloud Computing,AWS ML and Data Engineering
+Cloud Computing,AWS Sagemaker
+Cloud Computing,Azure ML 
+Cloud Computing,"Data Engineering with AWS, Azure, Google"
+Cloud Computing,Essentials of Cloud Computing
+Cloud Computing,Google Cloud - Infrastructure
+Cloud Computing,Google Cloud- Architecture
+Cloud Computing,Google Cloud- Data Engineer
+Cloud Computing,Microsoft Azure
+Cloud Computing,Oracle Cloud Infrtastructure (OCI)
+Cloud Computing,Oracle Cloud ML
+Cloud Computing,Oracle Integration Cloud
+Cloud Computing,OTBI
+Cloud Computing,Palantir Foundry
+Cloud Computing,Salesforce Cloud
+Cloud Computing,Yandex
+Data Engineering,Akka
+Data Engineering,Akka Play Programming
+Data Engineering,Akka Programming
+Data Engineering,Apache Spark
+Data Engineering,AWS Data Engineering
+Data Engineering,Azure Data Engineering
+Data Engineering,Azure Data Factory
+Data Engineering,Azure Fabric
+Data Engineering,Big Data Architecture
+Data Engineering,Data Lakehouse
+Data Engineering,Databricks
+Data Engineering,GCP Data Engineering
+Data Engineering,Hadoop 
+Data Engineering,Kafka
+Data Engineering,OCI Data Engineering
+Data Engineering,Scala Programming
+Data Science & Analytics,AIOps
+Data Science & Analytics,Artificial Intelligence
+Data Science & Analytics,DataOps
+Data Science & Analytics,Deep Learning
+Data Science & Analytics,Introduction to Deep Learning with ANN & Thomson Sampling
+Data Science & Analytics,"Introduction to AI- Tensor Flow, Theano, CUDA"
+Data Science & Analytics,Machine Learning
+Data Science & Analytics,MLOps
+Data Science & Analytics,Neural Networks
+Data Science & Analytics,PySpark
+Data Science & Analytics,Python Programming
+Data Science & Analytics,R programming
+Data Science & Analytics,SAS
+Data Science & Analytics,SPSS
+Data Visualization,Alteryx
+Data Visualization,Google Looker
+Data Visualization,"MS BI (SSAS, SSIS, SSRS)"
+Data Visualization,PowerAutomate
+Data Visualization,PowerBI
+Data Visualization,Qliksense
+Data Visualization,Qlikview
+Data Visualization,SAP HANA
+Data Visualization,Tableau
+Data Visualization,Talend
+Databases,Database Administration
+Databases,Database Design & Programming
+Databases,Gallera
+Databases,NoSQL : Cassandra
+Databases,NoSQL : HDFS
+Databases,NoSQL : HIVE
+Databases,NoSQL : MariaDB
+Databases,NoSQL: MongoDB
+Databases,Oracle Exadata
+Databases,RDBMS : DB2
+Databases,RDBMS : MySQL
+Databases,RDBMS : Oracle
+Databases,RDBMS : Postgre
+Databases,RDBMS : SQL Server
+Databases,RDBMS : SQLite
+Databases,RDBMS : Teradata
+Databases,RDBMS Architecture
+Databases,Redis
+Databases,Vector and Graph Databases
+"Datwarehousing, ETL & BI",ABAP in BW
+"Datwarehousing, ETL & BI",Apache nifi
+"Datwarehousing, ETL & BI",AWS Glue
+"Datwarehousing, ETL & BI",AWS Kinesis
+"Datwarehousing, ETL & BI",Azure ADF
+"Datwarehousing, ETL & BI",Cognos
+"Datwarehousing, ETL & BI",Datadog
+"Datwarehousing, ETL & BI",Datastage
+"Datwarehousing, ETL & BI",Datavault
+"Datwarehousing, ETL & BI",DBT - Data Build Tool
+"Datwarehousing, ETL & BI",Denodo
+"Datwarehousing, ETL & BI",DWH and ETL Concepts
+"Datwarehousing, ETL & BI",DWH Concepts 
+"Datwarehousing, ETL & BI",Google pub/sub
+"Datwarehousing, ETL & BI","Informatica, MDM, BDM, P360, PIM, IICS"
+"Datwarehousing, ETL & BI",Infosphere
+"Datwarehousing, ETL & BI",Matillion
+"Datwarehousing, ETL & BI",Microstrategy
+"Datwarehousing, ETL & BI","MS BI (SSAS, SSIS, SSRS)"
+"Datwarehousing, ETL & BI",MS Dynamics
+"Datwarehousing, ETL & BI",MS Sharepoint
+"Datwarehousing, ETL & BI",OBIEE & ODI
+"Datwarehousing, ETL & BI",Pentaho
+"Datwarehousing, ETL & BI",Qlikview
+"Datwarehousing, ETL & BI",SAP BODS 
+"Datwarehousing, ETL & BI",SAP BPC Overview
+"Datwarehousing, ETL & BI",SAP Business Objects
+"Datwarehousing, ETL & BI","SAP BW Authorizations, Monitoring etc."
+"Datwarehousing, ETL & BI",SAP BW Data Extraction
+"Datwarehousing, ETL & BI",SAP BW Data Modeling
+"Datwarehousing, ETL & BI",SAP BW Reporting
+"Datwarehousing, ETL & BI",Snowflake
+"Datwarehousing, ETL & BI",Tableau
+"Datwarehousing, ETL & BI",Teradata BTEQ 
+"Datwarehousing, ETL & BI",Teradata SQL
+"Datwarehousing, ETL & BI",Teradata SQL tuning 
+Frontend UI Development,Angular
+Frontend UI Development,"BackboneJS, Ember, NodeJS, Express"
+Frontend UI Development,Bootstrap
+Frontend UI Development,Django & Flask
+Frontend UI Development,Drupal
+Frontend UI Development,ES 6
+Frontend UI Development,ExtJS
+Frontend UI Development,"HTML, CSS"
+Frontend UI Development,Javascript
+Frontend UI Development,Laravel
+Frontend UI Development,Magento
+Frontend UI Development,Mean Stack (Mongo Express Angular Node)
+Frontend UI Development,MERN Stack
+Frontend UI Development,Outsystems
+Frontend UI Development,PERL Scripting
+Frontend UI Development,PHP
+Frontend UI Development,React
+Frontend UI Development,React Native
+Frontend UI Development,Scripting Tools
+Frontend UI Development,Typescript
+Frontend UI Development,Wordpress
+Generative & Agentic AI,AI for Business Analysts
+Generative & Agentic AI,AI for Learning professionals
+Generative & Agentic AI,AI for Non technology professionals
+Generative & Agentic AI,AI for Sales
+Generative & Agentic AI,Architecting AI Agents with Agentic
+Generative & Agentic AI,AWS Bedrock
+Generative & Agentic AI,Azure OpenAI
+Generative & Agentic AI,Co-Pilot
+Generative & Agentic AI,Cyber Security for AI development
+Generative & Agentic AI,GenAI for Software testing
+Generative & Agentic AI,Generative AI
+Generative & Agentic AI,"Langchain, Programming for GenAI"
+Generative & Agentic AI,Large Language Model
+Generative & Agentic AI,Open AI
+Generative & Agentic AI,Prompt Engineering with Python/ Java/ MS .Net
+Generative & Agentic AI,Vector and Graph Databases
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Cyber Ark
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Data Base architecture of  DB2 LUW
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Endpoint Security
+Identity and Access Management (IDAM) & Infrastructure Secuirty,File Manager
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Forgerock
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Identity Minder Aveksa
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Networking Basics
+Identity and Access Management (IDAM) & Infrastructure Secuirty,OKTA
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Perimeter Security 
+Identity and Access Management (IDAM) & Infrastructure Secuirty,PKI
+Identity and Access Management (IDAM) & Infrastructure Secuirty,RSA Secure ID
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Sailpoint
+Identity and Access Management (IDAM) & Infrastructure Secuirty,SIEM 
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Site Minder Aveksa
+Identity and Access Management (IDAM) & Infrastructure Secuirty,UAM
+Identity and Access Management (IDAM) & Infrastructure Secuirty,Vulnerability Management
+IOT & RPA,"IOT, IIOT, M2M"
+IOT & RPA,Robotic Process Automation (RPA)
+IOT & RPA,RPA with Automation Anywhere
+IOT & RPA,RPA with Blue Prism
+IOT & RPA,RPA with UiPath
+Mainframe,CICS
+Mainframe,COBOL
+Mainframe,"Compilation, Unit Testing and System Testing of the application"
+Mainframe,DB2
+Mainframe,File Manager
+Mainframe,JCL
+Mainframe,JCL
+Mainframe,Mainframe Operation
+Mainframe,MVS/TSO
+Mainframe,SCLM
+Mainframe,Testing Mainframe Based Applications
+Mainframe,VSAM
+Mainframe,Working with BQAS Automation Tools
+Mobility,Android App development
+Mobility,Flutter
+Mobility,IOS App development
+Mobility,"Mobile Web (HTML 4, HTML 5, Javascript, CSS3) "
+Mobility,Objective C
+Mobility,React Native
+Mobility,Swift Programming
+Mobility,Titanium Appcelerator
+Mobility,Xamarin 
+Newtork & OS,Android
+Newtork & OS,Embedded RTOS
+Newtork & OS,Linux
+Newtork & OS,Switching & Routing
+Newtork & OS,Unix
+Newtork & OS,Windows
+Oracle,AOL & Sys Admin
+Oracle,Customizing Forms
+Oracle,Forms & Reports
+Oracle,Functional Module(SCM/FIN)
+Oracle,Interfaces
+Oracle,Introduction to Business Process ( Functional)]
+Oracle,Introduction to ERP & Oracle Applications Technical Architecture
+Oracle,Oracle Apps Functional (Advanced Modules)
+Oracle,Oracle Apps Functional (Core Modules)
+Oracle,Oracle Apps Functional (New Features and merged Modules)
+Oracle,"Oracle BigDB, Exadata, Exalogic"
+Oracle,Oracle DB Administration - Advance
+Oracle,Oracle DB Administration - Basics
+Oracle,"Oracle DB Administration - NF, RAC, ASM, Dataguard"
+Programming,Android
+Programming,Assembly Language
+Programming,C Programming
+Programming,C# MS .Net 
+Programming,C++ Programming
+Programming,Dart
+Programming,Embedded Programming
+Programming,Go
+Programming,Golang
+Programming,Groovy
+Programming,Java JEE
+Programming,Javascript
+Programming,Julia
+Programming,Kotlin
+Programming,Objective-C
+Programming,PERL Scripting
+Programming,Python Programming
+Programming,R Programming
+Programming,Ruby
+Programming,Rust
+Programming,Scala Programming
+Programming,Swift Programming
+Programming,Xamarin 
+Salesforce,Apex & Visualforce Controllers 
+Salesforce,Building Applications with Force.com – Basics 
+Salesforce,"Building Applications with Force.com & Visualforce - Managing Data, Visual force Pages"
+Salesforce,Building Applications with Force.com & Visualforce - sharing and security
+Salesforce,Getting Started: Basic Application Administration 
+Salesforce,Introduction to CRM and Salesforce.com 
+Salesforce,Introduction to Java 
+Salesforce,Object oriented Programming with Force.com Code(AppEx)
+Salesforce,"Salesforce APEX, LWC, Vlocity"
+Salesforce,Salesforce.com Administration 
+SAP,ABAP Basics
+SAP,Adv  Supply Chain Management
+SAP,Adv FI/CO
+SAP,Adv MM
+SAP,Adv SD
+SAP,Advanced ABAP
+SAP,Basic of FI/CO
+SAP,Basic of MM
+SAP,Basic of SD
+SAP,Basic of Supply Chain Management
+SAP,HANA - Functional
+SAP,HANA - Programming & Admin
+SAP,"Netweaver configuration, administration and programming"
+SAP,"S4 HANA - Funcitonal (Function specific on MM, PP, SD etc,.)"
+SAP,SAP Basics – Advanced
+SAP,SAP Basics – Basic
+SAP,SAP CRM Base Customization
+SAP,SAP CRM Sales
+SAP,SAP HCM Advanced
+SAP,SAP HCM Basics
+SAP,SAP PP Advanced
+SAP,SAP PP Basics
+SAP,SAP Security  & GRC 
+SAP,SAP UI5 & Fiori
+SAP,Simple Finance
+SAP,Successfactors (Technical & functional)
+SAP,Web UI
+Testing & QA,Appium
+Testing & QA,Cypress
+Testing & QA,Descriptive Programming - QTP Advanced
+Testing & QA,Dimensional Data  Modelling
+Testing & QA,Driver Script Framework
+Testing & QA,DWH & Data Migration Testing
+Testing & QA,easyAutomate - QTP
+Testing & QA,easyAutomate - Selenium
+Testing & QA,ER Modelling & Adv SQL
+Testing & QA,Google Test Framework
+Testing & QA,HP UFT
+Testing & QA,Introduction to Automation (Regression test analysis)
+Testing & QA,Introduction to Performance Testing
+Testing & QA,Introduction to QC with integration to QTP
+Testing & QA,JEST
+Testing & QA,Jmeter
+Testing & QA,Load runner 
+Testing & QA,MABL
+Testing & QA,Model Based Testing
+Testing & QA,Orthogonal Arrays and Model Based Testing
+Testing & QA,Performance Workload Modeling
+Testing & QA,Playwright
+Testing & QA,Pytest & PyWin
+Testing & QA,QTP
+Testing & QA,Rest assured(java)
+Testing & QA,RTOS & Embedded Testing
+Testing & QA,Selenium
+Testing & QA,Testing Concept and methodologies 
+Testing & QA,Testing Library
+Testing & QA,Tricentis TOSCA
+Testing & QA,Web Testing
+Testing & QA,XCUITest
+VLSI,Analog Layout basics
+VLSI,Analog Layout Techniques
+VLSI,Analog Layout Verification basics
+VLSI,Analog Verification
+VLSI,Basic Design Analysis
+VLSI,Basics of Board Design
+VLSI,Board Testing Concepts
+VLSI,Boundary Scan and JTAG IEEE-1149.1 IEEE-P1500
+VLSI,Built In Self Test for Memory and Logic
+VLSI,CMOS fabrication basics
+VLSI,Code coverage
+VLSI,Component Selection Overview
+VLSI,Configuration Management
+VLSI,DFT and LEC Concepts
+VLSI,DFT Fault models & ATPG
+VLSI,DFT Introduction & Overview
+VLSI,Digital Design Concepts and Synthesizable HDL
+VLSI,Field Programmable Gate Array
+VLSI,HDL Based Verification
+VLSI,Introduction to Memory devices
+VLSI,Introduction to Orcad Capture
+VLSI,Layout verification AMS Flow
+VLSI,Logic Design
+VLSI,Microprocessor Interfacing
+VLSI,Physical Design Flow and Introduction to File Formats
+VLSI,Physical Design training and IC compiler Labs
+VLSI,Physical Verification Concepts
+VLSI,Scan Insertion Basics  
+VLSI,Specific Implementation Checks
+VLSI,"STA Concepts, Primetime training and Primetime Labs"
+VLSI,STA(Static Timing Analysis)
+VLSI,Standard Cell Characterization
+VLSI,Standard Cell Layout
+VLSI,Synthesis concepts and Design Compiler Lab
+VLSI,"Test Pattern Generation, Fault Simulation and Pattern validation"
+VLSI,Understanding of physical design
+VLSI,Unix Basics & vi editor
+VLSI,Unix Basics & vi editor & CVS
+VLSI,Verification Essentials
+VLSI,Verilog
+Web & Mobile Development,"Dev Tools (intelliJ, Eclipse Mars, Tomcat, JDeveloper)"
+Web & Mobile Development,Django & Flask
+Web & Mobile Development,GraphQL
+Web & Mobile Development,Helidion
+Web & Mobile Development,"MEAN, MERN"
+Web & Mobile Development,Microservices 
+Web & Mobile Development,Netflix Hysterix
+Web & Mobile Development,Netflix Ribbon
+Web & Mobile Development,Oauth
+Web & Mobile Development,Spring 
+Web & Mobile Development,Spring Boot
+Web & Mobile Development,Spring Cloud
+Web & Mobile Development,"Spring MVC, Spring Microservices"
+Web & Mobile Development,Spring Security
+Web & Mobile Development,SpringAI
+Web & Mobile Development,Swagger
+Web & Mobile Development,Titanium
+Wintel,Advance Desktop
+Wintel,Citrix
+Wintel,Exchange Server
+Wintel,VDI & MDM
+Wintel,VMWare Server Virtualization
+Wintel,Windows Server Active Directory
+Wintel,Windows Server Management
+Wintel,Windows Server Troubleshooting

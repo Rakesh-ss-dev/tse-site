@@ -1,0 +1,5 @@
+[07-Apr-2025 10:20:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: COLLATION 'utf8mb4_general_ci' is not valid for CHARACTER SET 'latin1' in /home/learnfundoo/public_html/dev.tseedu.com/forms/add_competencies.php:11
+Stack trace:
+#0 /home/learnfundoo/public_html/dev.tseedu.com/forms/add_competencies.php(11): mysqli->query()
+#1 {main}
+  thrown in /home/learnfundoo/public_html/dev.tseedu.com/forms/add_competencies.php on line 11

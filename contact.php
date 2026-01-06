@@ -38,6 +38,7 @@
                                 <img src="images/call_icon.svg" class="mb-2" width="30" alt="">
                                 <h5 class="text-white">Phone:</h5>
                                 <p class="text-white">040-40203358, 040-40273355</p>
+                                <a href="tel:+91 93911 33223" class="text-white text-decoration-none">Call: +91 93911 33223</a>
                             </div>
                             <div>
                                 <img src="images/email_icon.svg" class="mb-2" width="30" alt="">

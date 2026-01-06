@@ -28,13 +28,13 @@
                 <div class="row">
                     <div class="col-10 mx-auto col-md-6 py-75">
                         <div class="d-flex flex-column gap-2 justify-content-between">
-                            <div>
+                            <div class="mb-3">
                                 <img src="images/address_icon.svg" class="mb-2" width="30" alt="">
                                 <h5 class="text-white">Address:</h5>
-                                <p class="text-white">The Skill Enhancers,<br> Raghuma Towers Hitech City Rd,<br> Phase
+                                <p class="text-white mb-0">The Skill Enhancers,<br> Raghuma Towers Hitech City Rd,<br> Phase
                                     2, Kavuri Hills, Madhapur,<br> Hyderabad, Telangana 500081</p>
                             </div>
-                            <div>
+                            <div class="mb-3">
                                 <img src="images/call_icon.svg" class="mb-2" width="30" alt="">
                                 <h5 class="text-white">Phone:</h5>
                                 <p class="text-white mb-0">040-40203358, 040-40273355</p>

@@ -100,7 +100,12 @@
                     <a href="https://wa.link/bax02e" target="_blank"><img src="images/whatsapp-icon.svg" width="40"
                             alt="" /></a>
                 </div>
-                <p class="text-white text-center mt-3 mb-0">Tseedu | &copy 2026 Powered by TSE, All rights reserved</p>
+                <p class="text-white text-center mt-3 mb-3">Tseedu | &copy 2026 Powered by TSE, All rights reserved</p>
+
+                <div class="d-flex justify-content-between flex-column flex-md-row">
+                  <a href="tel:+91 93911 33223" class="text-white text-decoration-none">Call: +91 93911 33223</a>
+                  <a href="mailto:info@tseedu.com" class="text-white text-decoration-none">Email : info@tseedu.com</a>
+                </div>
             </div>
         </div>
     </footer>

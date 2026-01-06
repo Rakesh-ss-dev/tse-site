@@ -100,7 +100,7 @@
                     <a href="https://wa.link/bax02e" target="_blank"><img src="images/whatsapp-icon.svg" width="40"
                             alt="" /></a>
                 </div>
-                <p class="text-white text-center mt-3 mb-0">Tseedu | &copy 2021 Powered by TSE, All rights reserved</p>
+                <p class="text-white text-center mt-3 mb-0">Tseedu | &copy 2026 Powered by TSE, All rights reserved</p>
             </div>
         </div>
     </footer>

@@ -48,7 +48,7 @@
                 </div>
                 <hr class="border-theme" />
                 <p class="text-white text-start text-md-end">
-                  Tseedu | &copy 2025 Powered by TSE, All rights reserved
+                  Tseedu | &copy 2026 Powered by TSE, All rights reserved
                 </p>
               </div>
             </div>

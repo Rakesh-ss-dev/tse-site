@@ -39,11 +39,8 @@ h6 {
 }
 .home-banner-bg {
   height: calc(73vh + 160px);
-  background-image: linear-gradient(
-      to right,
-      rgba(3, 21, 59, 0.85),
-      rgba(3, 21, 59, 0.85)
-    ),
+  background-image:
+    linear-gradient(to right, rgba(3, 21, 59, 0.85), rgba(3, 21, 59, 0.85)),
     url("../images/home-banner.jpg");
   background-size: cover;
   top: -160px;
@@ -111,7 +108,8 @@ h6 {
 }
 .competency-banner-bg {
   height: calc(45vh + 170px);
-  background-image: linear-gradient(to right, #03153ba6, #03153ba6),
+  background-image:
+    linear-gradient(to right, #03153ba6, #03153ba6),
     url("../images/competency-banner.jpg");
 }
 #header {
@@ -430,8 +428,8 @@ h6 {
 .py-100 {
   padding: 100px 0;
 }
-.pt-100{
-  padding-top:100px
+.pt-100 {
+  padding-top: 100px;
 }
 .competency-dropdown-items {
   padding: 0;
@@ -772,8 +770,8 @@ h6 {
 .tse-methodologies-card p {
   color: #fff;
 }
-.tse-methodologies-card .tse-methodologies-icon .hover{
-display:none;
+.tse-methodologies-card .tse-methodologies-icon .hover {
+  display: none;
 }
 .tse-methodologies-card .tse-methodologies-icon .normal {
   display: block;
@@ -1053,6 +1051,155 @@ display:none;
 .op-8 {
   opacity: 0.8;
 }
+/* Page Specific Custom Styles */
+.tse-content-wrapper {
+  font-family: "Poppins", sans-serif;
+  color: #4a4a4a;
+  background-color: #f8f9fa;
+  padding-bottom: 50px;
+}
+.page-banner {
+  background: linear-gradient(
+    135deg,
+    #0d6efd 0%,
+    #0a58ca 100%
+  ); /* Adjust to your brand color */
+  color: white;
+  padding: 60px 0;
+  margin-bottom: 40px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.section-card {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+  padding: 25px;
+  transition: transform 0.2s;
+}
+.section-card:hover {
+  transform: translateY(-3px);
+}
+.consistencyhead {
+  font-weight: 600;
+  color: #0d6efd; /* Brand Color */
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  display: block;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 10px;
+}
+.tse-list {
+  list-style: none;
+  padding-left: 0;
+}
+.tse-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.tse-list li::before {
+  content: "\F26A"; /* Bootstrap Icon Check Circle */
+  font-family: "bootstrap-icons";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #198754;
+}
+.contact-box {
+  background-color: #e7f1ff;
+  border-left: 5px solid #0d6efd;
+  padding: 20px;
+  border-radius: 8px;
+}
+/* Dark Theme Core Styles */
+.tse-content-wrapper {
+  font-family: "Poppins", sans-serif;
+  background-color: #03153b !important; /* Your specific dark background */
+  color: #e0e6ed; /* Light gray text for readability */
+  padding-bottom: 50px;
+  min-height: 100vh;
+}
+
+/* Banners */
+.page-banner {
+  padding: 60px 0;
+  margin-bottom: 40px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark Cards */
+.section-card {
+  background-color: #0b2252; /* Slightly lighter than bg for contrast */
+  border: 1px solid rgba(255, 255, 255, 0.05); /* Subtle border */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+  padding: 25px;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+}
+.section-card:hover {
+  transform: translateY(-3px);
+  background-color: #0e2a63;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Headings inside cards */
+.consistencyhead {
+  font-weight: 600;
+  color: #6ea8fe; /* Bright Blue for headings */
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+/* Lists */
+.tse-list {
+  list-style: none;
+  padding-left: 0;
+}
+.tse-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: #ced4da; /* Muted white */
+}
+.tse-list li::before {
+  content: "\F26A"; /* Bootstrap Icon Check Circle */
+  font-family: "bootstrap-icons";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #0dcaf0; /* Cyan for checkmarks */
+  font-size: 1.1rem;
+}
+
+/* Contact Box */
+.contact-box {
+  background: linear-gradient(45deg, #0b2252, #03153b);
+  border-left: 5px solid #0d6efd;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Utility text colors for dark mode */
+.text-light-muted {
+  color: #adb5bd !important;
+}
+.text-highlight {
+  color: #fff !important;
+  font-weight: 500;
+}
 @media all and (min-width: 800px) {
   .tabbed-content .tabs {
     display: block;
@@ -1095,7 +1242,8 @@ display:none;
     height: calc(75vh + 112px);
   }
   .competency-banner-bg {
-    background-image: linear-gradient(to right, #03153ba6, #03153ba6),
+    background-image:
+      linear-gradient(to right, #03153ba6, #03153ba6),
       url("../images/competency-mobilebanner.jpg");
   }
   #header {

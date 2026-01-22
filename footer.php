@@ -47,9 +47,16 @@
                   <a href="mailto:info@tseedu.com" class="text-white text-decoration-none">Email : info@tseedu.com</a>
                 </div>
                 <hr class="border-theme" />
+                <div class="d-flex flex-column flex-md-row gap-3 justify-content-between">
+                  <div class="d-flex gap-3 flex-column flex-md-row">
+                    <a class="text-white text-decoration-none" href="privacy-policy.php">Privacy Policy</a>
+                    <a class="text-white text-decoration-none" href="refund-policy.php">Refund Policy</a>
+                    <a class="text-white text-decoration-none" href="terms-and-conditions.php">Terms and Conditions</a>
+                  </div>
                 <p class="text-white text-start text-md-end">
                   Tseedu | &copy 2026 Powered by TSE, All rights reserved
                 </p>
+                </div>
               </div>
             </div>
           </div>

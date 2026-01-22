@@ -73,13 +73,6 @@
                     </ul>
                 </div>
 
-                <div class="section-card">
-                    <span class="consistencyhead">Governing Law</span>
-                    <ul class="tse-list">
-                        <li>Governed by the laws of <b class="text-white">Hyderabad Jurisdiction</b>, without regard to conflict of law provisions.</li>
-                    </ul>
-                </div>
-
                 <div class="contact-box mt-4">
                     <h5 class="fw-bold text-white"><i class="bi bi-envelope-at-fill me-2"></i>Contact Us</h5>
                     <p class="text-light-muted mb-2">Questions about these Terms?</p>

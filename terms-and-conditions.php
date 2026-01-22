@@ -14,7 +14,7 @@
 <body class="bg-dark-blue">
     <?php include('header.php') ?>
     <main>
-        <div class="tse-content-wrapper">
+        <div class="tse-content-wrapper position-relative">
     <div class="container-fluid page-banner" style="background: linear-gradient(135deg, #0640a3 0%, #03153b 100%); border-bottom: 1px solid #ffffff1a;">
         <div class="container text-center text-white">
             <h1 class="display-4 fw-bold">Terms & Conditions</h1>

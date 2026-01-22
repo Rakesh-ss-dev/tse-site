@@ -407,13 +407,11 @@
     </main>
     <?php include('footer.php') ?>
     <!-- Bootstrap JavaScript Libraries -->
-     <script src="js/vendors.js"></script>
+     <?php include('scripts.php') ?>
+    <script src="js/vendors.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/countdown-custom.js"></script>
     <script src="js/custom-marquee.js"></script>
-    <?php include('scripts.php') ?>
-    
-
 </body>
 
 </html>

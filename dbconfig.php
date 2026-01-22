@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "tse_competency_admin";
-$password = "L+$^r^{Fa%{~";
+$username = "root";
+$password = "";
 $dbname = "tse_competencies";
 $conn = new mysqli($servername, $username, $password, $dbname);
 

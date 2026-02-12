@@ -6,11 +6,11 @@
               <img src="images/TSEFooterLogo.png" width="100%" alt="" />
             </a>
           </div>
-          <div class="col-md-8 my-auto">
-            <div class="d-flex flex-column gap-4 h-100">
+          <div class="col-md-8 my-md-auto my-4">
+            <div class="d-flex flex-column gap-2 gap-md-4 h-100">
               <div class="footer-links-container">
                 <ul
-                  class="d-flex flex-column flex-md-row text-white list-unstyled justify-content-between footer-links">
+                  class="d-flex flex-column flex-md-row text-white list-unstyled justify-content-between footer-links gap-3">
                   <li><a class="text-white text-decoration-none fw-bold" href="about-us.php">ABOUT US</a></li>
                   <li><a class="text-white text-decoration-none fw-bold" href="methodologies.php">METHODOLOGIES</a></li>
                   <li><a class="text-white text-decoration-none fw-bold" href="academic_alliance.php">ACADEMIC ALLIANCE</a></li>
@@ -27,7 +27,7 @@
                     </p>
                   </div>
                   <div class="col-md-6 mb-3 my-auto">
-                    <div class="d-flex gap-3 justify-content-end">
+                    <div class="d-flex gap-3 justify-content-start justify-content-md-end">
                       <a href="https://www.facebook.com/tseedu/?ref=py_c" target="_blank"><img
                           src="images/facebook-icon.svg" width="40" alt="" /></a>
                       <a href="https://twitter.com/tseedu?lang=en" target="_blank"><img src="images/x-icon.svg"
@@ -64,7 +64,7 @@
                 </div>
                 
                 <div class="col-md-5 text-center text-md-end text-light">
-                    <small>Tseedu | &copy; 2026 Powered by TSE. All rights reserved.</small>
+                    Tseedu | &copy; 2026 Powered by TSE. All rights reserved.
                 </div>
             </div>
         </div>

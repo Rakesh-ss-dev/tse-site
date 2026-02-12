@@ -55,134 +55,140 @@
                 <div class="my-5">
                     <h2 class="text-white text-center mb-4 fw-bold">Information Security Policy</h2>
                     <p class="text-center text-info mb-4">Transform | Succeed | Excel</p>
-
-                    <div class="section-card border-info">
-                        <span class="consistencyhead text-white"><i class="bi bi-shield-fill-check me-2 text-info"></i>Our Security Promise</span>
-                        <blockquote class="blockquote text-light-muted fs-6 mb-3">
-                            "Information is one of our most valuable assets… protecting this information is essential to maintain trust."
-                        </blockquote>
-                        <p>We protect your data with an <b>ISO 27001:2022 aligned security framework</b>, ensuring confidentiality, integrity, and uninterrupted learning experiences.</p>
+                    <div class="section-card border-start border-4 border-info">
+                                <span class="consistencyhead text-info"><i class="bi bi-patch-check-fill me-2"></i>Our Security Promise</span>
+                                <p class="mb-3">We protect every piece of information entrusted to us.</p>
+                                <blockquote class="blockquote fs-6 text-light-muted fst-italic border-start ps-3 border-secondary">
+                                    "Information is one of our most valuable assets… protecting this information is essential to maintain trust."
+                                    <footer class="blockquote-footer mt-1 text-secondary">ISMS Manual</footer>
+                                </blockquote>
+                                <p class="mb-0">We protect your data with an <strong>ISO 27001:2022 aligned security framework</strong>, ensuring confidentiality, integrity, and uninterrupted learning experiences.</p>
                     </div>
+                    <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="section-card h-100">
+                                        <span class="consistencyhead"><i class="bi bi-safe2 me-2"></i>What We Protect</span>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-person-badge text-primary me-2"></i>Learner Data</strong><br>
+                                                <span class="text-light-muted small ms-4">Personal information, assessments, progress records</span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-lightbulb text-warning me-2"></i>Proprietary Content</strong><br>
+                                                <span class="text-light-muted small ms-4">Courseware, cloud labs, IP on AI, Cybersecurity, DevOps</span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-cloud text-info me-2"></i>Cloud Platforms</strong><br>
+                                                <span class="text-light-muted small ms-4">E-learning systems, virtual classrooms, assessment engines</span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-briefcase text-success me-2"></i>Client Information</strong><br>
+                                                <span class="text-light-muted small ms-4">Contracts, training data, enterprise integrations</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
 
-                    <div class="row mb-4">
-                        <div class="col-md-6">
-                            <div class="section-card h-100">
-                                <span class="consistencyhead"><i class="bi bi-safe2 me-2"></i>What We Protect</span>
-                                <div class="info-box-item">
-                                    <span class="info-box-title"><i class="bi bi-person-badge me-2 text-primary"></i>Learner Data</span>
-                                    Personal information, assessments, progress records.
+                                <div class="col-md-6">
+                                    <div class="section-card h-100">
+                                        <span class="consistencyhead"><i class="bi bi-bricks me-2"></i>Our Security Principles</span>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-eye-slash-fill text-danger me-2"></i>Confidentiality</strong><br>
+                                                <span class="text-light-muted small ms-4">Only authorized people access sensitive information</span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-check-circle-fill text-success me-2"></i>Integrity</strong><br>
+                                                <span class="text-light-muted small ms-4">Data remains accurate, consistent, and tamper-free</span>
+                                            </li>
+                                            <li class="mb-3">
+                                                <strong class="text-white"><i class="bi bi-lightning-charge-fill text-warning me-2"></i>Availability</strong><br>
+                                                <span class="text-light-muted small ms-4">Training platforms and cloud labs stay reliable and accessible</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="info-box-item">
-                                    <span class="info-box-title"><i class="bi bi-lightbulb me-2 text-warning"></i>Proprietary Content</span>
-                                    Courseware, cloud labs, IP on AI, Cybersecurity, DevOps.
-                                </div>
-                                <div class="info-box-item">
-                                    <span class="info-box-title"><i class="bi bi-cloud me-2 text-info"></i>Cloud Platforms</span>
-                                    E-learning systems, virtual classrooms, assessment engines.
-                                </div>
-                                <div class="info-box-item">
-                                    <span class="info-box-title"><i class="bi bi-briefcase me-2 text-success"></i>Client Information</span>
-                                    Contracts, training data, enterprise integrations.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="section-card">
-                                <span class="consistencyhead"><i class="bi bi-bricks me-2"></i>Our Principles</span>
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><i class="bi bi-eye-slash-fill text-danger me-2"></i><b>Confidentiality:</b> Only authorized access.</li>
-                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><b>Integrity:</b> Accurate & tamper-free.</li>
-                                    <li class="mb-2"><i class="bi bi-lightning-charge-fill text-warning me-2"></i><b>Availability:</b> Reliable & accessible.</li>
-                                </ul>
-                            </div>
-
-                            <div class="section-card mb-0">
-                                <span class="consistencyhead"><i class="bi bi-lock me-2"></i>How We Safeguard</span>
-                                <ul class="tse-list small">
-                                    <li><b>Risk-Based Controls:</b> Across people, processes, & tech.</li>
-                                    <li><b>Compliance:</b> Aligned with ISO/IEC 27001:2022 & India’s DPDP Act.</li>
-                                    <li><b>Access Management:</b> Role-based access & secure auth.</li>
-                                    <li><b>Secure Operations:</b> Monitoring & incident response.</li>
-                                    <li><b>Awareness:</b> Annual security training for all staff.</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
-
+                    <div class="section-card mt-4">
+                                <span class="consistencyhead"><i class="bi bi-shield-lock me-2"></i>How We Safeguard Information</span>
+                                <div class="row row-cols-1 row-cols-md-2 g-3">
+                                    <div class="col">
+                                        <div class="mb-2"><i class="bi bi-sliders me-2 text-info"></i><strong>Risk-Based Controls:</strong></div>
+                                        <div>Across people, processes, technology, and cloud systems</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-2"><i class="bi bi-file-earmark-check me-2 text-info"></i><strong>Compliance:</strong></div>
+                                        <div>Aligned with ISO/IEC 27001:2022 and India’s DPDP Act</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-2"><i class="bi bi-key me-2 text-info"></i><strong>Access Management:</strong></div>
+                                        <div> Role-based access, secure authentication, vendor governance</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-2"><i class="bi bi-activity me-2 text-info"></i><strong>Secure Operations:</strong></div>
+                                        <div>Monitoring, incident response, vulnerability management</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-2"><i class="bi bi-mortarboard me-2 text-info"></i><strong>Awareness Training:</strong></div>
+                                        <div>Every employee and trainer completes annual security training</div>
+                                    </div>
+                                </div>
+                    </div>
                     <div class="section-card">
-                        <span class="consistencyhead"><i class="bi bi-arrow-repeat me-2"></i>Continuous Improvement (PDCA)</span>
-                        <div class="row text-center mt-3">
-                            <div class="col-6 col-md-3 mb-3">
-                                <div class="p-2 border border-secondary rounded">
-                                    <div class="fw-bold text-info">PLAN</div>
-                                    <div class="small text-light-muted">Identify risks</div>
+                                <span class="consistencyhead"><i class="bi bi-arrow-repeat me-2"></i>Continuous Improvement</span>
+                                <p>We follow the Plan–Do–Check–Act (PDCA) cycle:</p>
+                                <div class="d-flex justify-content-between flex-wrap text-center my-3 gap-2">
+                                    <div class="bg-dark border border-secondary p-2 rounded flex-fill"><strong class="text-primary">Plan</strong><br><small>Identify risks</small></div>
+                                    <div class="bg-dark border border-secondary p-2 rounded flex-fill"><strong class="text-primary">Do</strong><br><small>Implement measures</small></div>
+                                    <div class="bg-dark border border-secondary p-2 rounded flex-fill"><strong class="text-primary">Check</strong><br><small>Audit, monitor</small></div>
+                                    <div class="bg-dark border border-secondary p-2 rounded flex-fill"><strong class="text-primary">Act</strong><br><small>Improve findings</small></div>
                                 </div>
-                            </div>
-                            <div class="col-6 col-md-3 mb-3">
-                                <div class="p-2 border border-secondary rounded">
-                                    <div class="fw-bold text-info">DO</div>
-                                    <div class="small text-light-muted">Implement measures</div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3 mb-3">
-                                <div class="p-2 border border-secondary rounded">
-                                    <div class="fw-bold text-info">CHECK</div>
-                                    <div class="small text-light-muted">Audit & Monitor</div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3 mb-3">
-                                <div class="p-2 border border-secondary rounded">
-                                    <div class="fw-bold text-info">ACT</div>
-                                    <div class="small text-light-muted">Improve findings</div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-center mt-3 fst-italic text-light-muted">"The organization shall continually improve the suitability, adequacy and effectiveness of the ISMS."</p>
+                                <p class="fst-italic text-light-muted mb-0">"The organization shall continually improve the suitability, adequacy and effectiveness of the ISMS."</p>
                     </div>
-
-                    <div class="leadership-box mt-4">
-                        <h4 class="text-white mb-3"><i class="bi bi-award me-2"></i>Leadership & Accountability</h4>
-                        <p class="mb-3">We ensure secure, reliable, and future-ready learning experiences — protecting your data while empowering your growth.</p>
-                        
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-person-circle fs-4 text-primary me-3"></i>
-                                    <div>
-                                        <strong>CEO & MR:</strong> Heeresh Dubey<br>
-                                        <span class="small text-info">Strategic Oversight & Governance</span>
+                    <div class="section-card bg-primary bg-opacity-10 border-primary">
+                                <span class="consistencyhead text-primary border-primary"><i class="bi bi-hand-thumbs-up-fill me-2"></i>Our Commitment to You</span>
+                                <p class="mb-0 text-white">We ensure secure, reliable, and future-ready learning experiences — protecting your data while empowering your growth.</p>
+                    </div>
+                    <div class="contact-box mt-4">
+                                <h4 class="fw-bold text-white mb-3"><i class="bi bi-people-fill me-2"></i>Leadership & Accountability</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-person-circle fs-4 text-primary me-3"></i>
+                                            <div>
+                                                <strong class="text-white">CEO & MR Heeresh Dubey</strong><br>
+                                                <span class="small text-light-muted">Strategic oversight & governance</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-shield-check fs-4 text-primary me-3"></i>
+                                            <div>
+                                                <strong class="text-white">CISO Anantha Bhaskar</strong><br>
+                                                <a href="mailto:anantha.bhaskar@tseedu.com" class="small text-info text-decoration-none">anantha.bhaskar@tseedu.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-headset fs-4 text-primary me-3"></i>
+                                            <div>
+                                                <strong class="text-white">HR & IT</strong><br>
+                                                <a href="mailto:itsupport@tseedu.com" class="small text-info text-decoration-none">itsupport@tseedu.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                            <i class="bi bi-globe fs-4 text-primary me-3"></i>
+                                            <div>
+                                                <strong class="text-white">Everyone at TSE</strong><br>
+                                                <span class="small text-light-muted">Security is a shared responsibility</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-shield-lock fs-4 text-primary me-3"></i>
-                                    <div>
-                                        <strong>CISO:</strong> Anantha Bhaskar<br>
-                                        <a href="mailto:anantha.bhaskar@tseedu.com" class="small text-info text-decoration-none">anantha.bhaskar@tseedu.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-laptop fs-4 text-primary me-3"></i>
-                                    <div>
-                                        <strong>HR & IT Support</strong><br>
-                                        <a href="mailto:itsupport@tseedu.com" class="small text-info text-decoration-none">itsupport@tseedu.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-people fs-4 text-primary me-3"></i>
-                                    <div>
-                                        <strong>Everyone at TSE</strong><br>
-                                        <span class="small text-info">Security is a shared responsibility</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

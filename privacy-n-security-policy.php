@@ -150,7 +150,7 @@
                                 <p class="mb-0 text-white">We ensure secure, reliable, and future-ready learning experiences — protecting your data while empowering your growth.</p>
                     </div>
                     <div class="contact-box mt-4">
-                                <h4 class="fw-bold text-white mb-3"><i class="bi bi-people-fill me-2"></i>Leadership & Accountability</h4>
+                                <h4 class="fw-bold text-primary mb-3"><i class="bi bi-people-fill me-2"></i>Leadership & Accountability</h4>
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="d-flex">

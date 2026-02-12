@@ -1051,75 +1051,9 @@ h6 {
 .op-8 {
   opacity: 0.8;
 }
-/* Page Specific Custom Styles */
 .tse-content-wrapper {
-  font-family: "Poppins", sans-serif;
-  color: #4a4a4a;
-  background-color: #f8f9fa;
-  padding-bottom: 50px;
-}
-.page-banner {
-  background: linear-gradient(
-    135deg,
-    #0d6efd 0%,
-    #0a58ca 100%
-  ); /* Adjust to your brand color */
-  color: white;
-  padding: 60px 0;
-  margin-bottom: 40px;
-  border-radius: 0 0 20px 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-.section-card {
-  background: white;
-  border: none;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  margin-bottom: 25px;
-  padding: 25px;
-  transition: transform 0.2s;
-}
-.section-card:hover {
-  transform: translateY(-3px);
-}
-.consistencyhead {
-  font-weight: 600;
-  color: #0d6efd; /* Brand Color */
-  font-size: 1.25rem;
-  margin-bottom: 15px;
-  display: block;
-  border-bottom: 2px solid #e9ecef;
-  padding-bottom: 10px;
-}
-.tse-list {
-  list-style: none;
-  padding-left: 0;
-}
-.tse-list li {
-  position: relative;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  line-height: 1.6;
-}
-.tse-list li::before {
-  content: "\F26A"; /* Bootstrap Icon Check Circle */
-  font-family: "bootstrap-icons";
-  position: absolute;
-  left: 0;
-  top: 2px;
-  color: #198754;
-}
-.contact-box {
-  background-color: #e7f1ff;
-  border-left: 5px solid #0d6efd;
-  padding: 20px;
-  border-radius: 8px;
-}
-/* Dark Theme Core Styles */
-.tse-content-wrapper {
-  font-family: "Poppins", sans-serif;
-  background-color: #03153b !important; /* Your specific dark background */
-  color: #e0e6ed; /* Light gray text for readability */
+  background-color: #03153b !important;
+  color: #e0e6ed;
   padding-bottom: 50px;
   min-height: 100vh;
 }
@@ -1134,15 +1068,13 @@ h6 {
 
 /* Dark Cards */
 .section-card {
-  background-color: #0b2252; /* Slightly lighter than bg for contrast */
-  border: 1px solid rgba(255, 255, 255, 0.05); /* Subtle border */
+  background-color: #0b2252;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   margin-bottom: 25px;
   padding: 25px;
-  transition:
-    transform 0.2s,
-    background-color 0.2s;
+  transition: transform 0.2s;
 }
 .section-card:hover {
   transform: translateY(-3px);
@@ -1150,10 +1082,10 @@ h6 {
   border-color: rgba(255, 255, 255, 0.15);
 }
 
-/* Headings inside cards */
+/* Headings */
 .consistencyhead {
   font-weight: 600;
-  color: #6ea8fe; /* Bright Blue for headings */
+  color: #6ea8fe;
   font-size: 1.25rem;
   margin-bottom: 15px;
   display: block;
@@ -1171,7 +1103,7 @@ h6 {
   padding-left: 30px;
   margin-bottom: 12px;
   line-height: 1.6;
-  color: #ced4da; /* Muted white */
+  color: #ced4da;
 }
 .tse-list li::before {
   content: "\F26A"; /* Bootstrap Icon Check Circle */
@@ -1179,8 +1111,31 @@ h6 {
   position: absolute;
   left: 0;
   top: 2px;
-  color: #0dcaf0; /* Cyan for checkmarks */
+  color: #0dcaf0;
   font-size: 1.1rem;
+}
+
+/* Special Info Boxes for Security Policy */
+.info-box-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 3px solid #0dcaf0;
+}
+.info-box-title {
+  color: #fff;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Leadership Box */
+.leadership-box {
+  background: linear-gradient(45deg, #1c2331, #0b2252);
+  border: 1px solid #6ea8fe;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 /* Contact Box */
@@ -1191,14 +1146,35 @@ h6 {
   border-radius: 8px;
   color: #fff;
 }
-
-/* Utility text colors for dark mode */
-.text-light-muted {
-  color: #adb5bd !important;
+/* Bottom Bar */
+.footer-bottom {
+  background-color: #000000;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
 }
-.text-highlight {
-  color: #fff !important;
-  font-weight: 500;
+.bottom-links a {
+  color: #adb5bd;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.bottom-links a:hover {
+  color: #0d6efd;
+}
+
+/* Contact Info styling */
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  color: #adb5bd;
+}
+.contact-info-item i {
+  font-size: 1.2rem;
+  margin-right: 15px;
+  color: #0d6efd;
+  margin-top: 2px;
 }
 @media all and (min-width: 800px) {
   .tabbed-content .tabs {
@@ -1297,4 +1273,7 @@ h6 {
   .pill {
     width: 80%;
   }
+}
+.bt-lb-1 {
+  border-top: 1px solid #00a7ff;
 }

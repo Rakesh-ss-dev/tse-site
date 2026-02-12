@@ -49,7 +49,7 @@
                 <div class="section-card">
                     <span class="consistencyhead"><i class="bi bi-server me-2"></i>Technical Logs</span>
                     <p class="mb-3">We gather standard non-personal logs including IP addresses, browser type, date/time, and pages visited.</p>
-                    <p class="text-muted small">We make no attempt to link these addresses with the identity of individuals unless an attempt to damage the site has been detected.</p>
+                    <p class="text-light-muted small">We make no attempt to link these addresses with the identity of individuals unless an attempt to damage the site has been detected.</p>
                 </div>
 
                 <div class="my-5">
@@ -64,7 +64,7 @@
                         <p>We protect your data with an <b>ISO 27001:2022 aligned security framework</b>, ensuring confidentiality, integrity, and uninterrupted learning experiences.</p>
                     </div>
 
-                    <div class="row">
+                    <div class="row mb-4">
                         <div class="col-md-6">
                             <div class="section-card h-100">
                                 <span class="consistencyhead"><i class="bi bi-safe2 me-2"></i>What We Protect</span>
@@ -97,7 +97,7 @@
                                 </ul>
                             </div>
 
-                            <div class="section-card">
+                            <div class="section-card mb-0">
                                 <span class="consistencyhead"><i class="bi bi-lock me-2"></i>How We Safeguard</span>
                                 <ul class="tse-list small">
                                     <li><b>Risk-Based Controls:</b> Across people, processes, & tech.</li>
@@ -116,25 +116,25 @@
                             <div class="col-6 col-md-3 mb-3">
                                 <div class="p-2 border border-secondary rounded">
                                     <div class="fw-bold text-info">PLAN</div>
-                                    <div class="small text-muted">Identify risks</div>
+                                    <div class="small text-light-muted">Identify risks</div>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 mb-3">
                                 <div class="p-2 border border-secondary rounded">
                                     <div class="fw-bold text-info">DO</div>
-                                    <div class="small text-muted">Implement measures</div>
+                                    <div class="small text-light-muted">Implement measures</div>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 mb-3">
                                 <div class="p-2 border border-secondary rounded">
                                     <div class="fw-bold text-info">CHECK</div>
-                                    <div class="small text-muted">Audit & Monitor</div>
+                                    <div class="small text-light-muted">Audit & Monitor</div>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3 mb-3">
                                 <div class="p-2 border border-secondary rounded">
                                     <div class="fw-bold text-info">ACT</div>
-                                    <div class="small text-muted">Improve findings</div>
+                                    <div class="small text-light-muted">Improve findings</div>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                     <i class="bi bi-person-circle fs-4 text-primary me-3"></i>
                                     <div>
                                         <strong>CEO & MR:</strong> Heeresh Dubey<br>
-                                        <span class="small text-muted">Strategic Oversight & Governance</span>
+                                        <span class="small text-info">Strategic Oversight & Governance</span>
                                     </div>
                                 </div>
                             </div>
@@ -178,22 +178,13 @@
                                     <i class="bi bi-people fs-4 text-primary me-3"></i>
                                     <div>
                                         <strong>Everyone at TSE</strong><br>
-                                        <span class="small text-muted">Security is a shared responsibility</span>
+                                        <span class="small text-info">Security is a shared responsibility</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="contact-box mt-5">
-                    <h5 class="fw-bold text-white"><i class="bi bi-info-circle me-2"></i>Privacy & Security Enquiries</h5>
-                    <ul class="list-unstyled mb-0 ms-3">
-                        <li><span class="text-primary">Email:</span> info@tseedu.com</li>
-                        <li><span class="text-primary">Phone:</span> +91 93911 33223</li>
-                    </ul>
-                </div>
-
             </div>
         </div>
     </div>

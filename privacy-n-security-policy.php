@@ -114,23 +114,23 @@
                                 <div class="row row-cols-1 row-cols-md-2 g-3">
                                     <div class="col">
                                         <div class="mb-2"><i class="bi bi-sliders me-2 text-info"></i><strong>Risk-Based Controls:</strong></div>
-                                        <div>Across people, processes, technology, and cloud systems</div>
+                                        <div class="text-light-muted small ms-4">Across people, processes, technology, and cloud systems</div>
                                     </div>
                                     <div class="col">
                                         <div class="mb-2"><i class="bi bi-file-earmark-check me-2 text-info"></i><strong>Compliance:</strong></div>
-                                        <div>Aligned with ISO/IEC 27001:2022 and India’s DPDP Act</div>
+                                        <div class="text-light-muted small ms-4">Aligned with ISO/IEC 27001:2022 and India’s DPDP Act</div>
                                     </div>
                                     <div class="col">
                                         <div class="mb-2"><i class="bi bi-key me-2 text-info"></i><strong>Access Management:</strong></div>
-                                        <div> Role-based access, secure authentication, vendor governance</div>
+                                        <div class="text-light-muted small ms-4"> Role-based access, secure authentication, vendor governance</div>
                                     </div>
                                     <div class="col">
                                         <div class="mb-2"><i class="bi bi-activity me-2 text-info"></i><strong>Secure Operations:</strong></div>
-                                        <div>Monitoring, incident response, vulnerability management</div>
+                                        <div class="text-light-muted small ms-4">Monitoring, incident response, vulnerability management</div>
                                     </div>
                                     <div class="col">
                                         <div class="mb-2"><i class="bi bi-mortarboard me-2 text-info"></i><strong>Awareness Training:</strong></div>
-                                        <div>Every employee and trainer completes annual security training</div>
+                                        <div class="text-light-muted small ms-4">Every employee and trainer completes annual security training</div>
                                     </div>
                                 </div>
                     </div>

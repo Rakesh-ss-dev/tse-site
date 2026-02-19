@@ -2,7 +2,7 @@
 $host = 'localhost';
 $user = 'root';      // Your DB Username
 $pass = '';          // Your DB Password
-$dbname = 'course_db';
+$dbname = 'tse_competencies';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 

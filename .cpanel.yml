@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/learnfundoo/public_html/tseedu.com
+    - /bin/cp -R * $DEPLOYPATH

@@ -1,8 +1,11 @@
 <?php
-$servername = "localhost";
-$username = "tse_competency_admin";
-$password = "L+$^r^{Fa%{~";
-$dbname = "tse_competencies";
+require 'vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+$servername = $_ENV['DB_HOST'];
+$username = $_ENV['DB_USERNAME'];
+$password = $_ENV['DB_PASSWORD'];
+$dbname = $_ENV['DB_DATABASE'];
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {

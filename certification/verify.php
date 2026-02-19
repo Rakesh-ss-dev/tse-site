@@ -1,6 +1,5 @@
 <?php
-require('db.php');
-
+require('../dbconfig.php');
 $certID = isset($_GET['id']) ? $_GET['id'] : '';
 $isValid = false;
 $studentName = "";

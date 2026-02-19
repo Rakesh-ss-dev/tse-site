@@ -1,5 +1,5 @@
 <?php
-include 'ajax/dbconfig.php';
+include '../../dbconfig.php';
 $handle = fopen("competency-list.csv", "r");
 $conn->set_charset("utf8mb4");
 

@@ -1,5 +1,5 @@
 <?php
-include 'dbconfig.php';
+include '../../dbconfig.php';
 $title = mysqli_escape_string($conn, $_POST['title']);
 $category = mysqli_escape_string($conn, $_POST['category']);
 $content = mysqli_escape_string($conn, $_POST['content']);

@@ -1,5 +1,5 @@
 <?php
-include 'dbconfig.php';
+include '../../dbconfig.php';
 $date = date('Y-m-d H:i:s');
 $title = mysqli_escape_string($conn, $_POST['title']);
 $description = mysqli_escape_string($conn, $_POST['description']);

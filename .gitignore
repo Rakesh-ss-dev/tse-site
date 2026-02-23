@@ -1,2 +1,6 @@
 certication/db.php
 .env
+vendor/
+certification/TSECertificate.pdf
+certification/HCLCertificate.pdf
+certification/generate.php

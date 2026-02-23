@@ -1,14 +1,36 @@
 <?php
 require('../dbconfig.php');
-$certID = isset($_GET['id']) ? $_GET['id'] : '';
+
+$certID = isset($_GET['id']) ? trim($_GET['id']) : '';
 $isValid = false;
 $studentName = "";
 $courseName = "";
-$cert_query="SELECT * FROM `certificates_new` WHERE `certId`='".$certID."'";
-$cert_res=$conn->query($cert_query);
-$cert_row=$cert_res->fetch_assoc();
-$studentName=$cert_row['name'];
-$courseName=$cert_row['course'];
+$startDate = "";
+$endDate = "";
+$issueDate = "";
+
+if (!empty($certID)) {
+    // Sanitize the input
+    $safeCertID = $conn->real_escape_string($certID);
+    
+    // Query the database
+    $cert_query = "SELECT * FROM `certificates_new` WHERE `certId`='" . $safeCertID . "'";
+    $cert_res = $conn->query($cert_query);
+    
+    // Check if certificate exists
+    if ($cert_res && $cert_res->num_rows > 0) {
+        $isValid = true;
+        $cert_row = $cert_res->fetch_assoc();
+        
+        $studentName = $cert_row['name'];
+        $courseName = isset($cert_row['course']) ? $cert_row['course'] : 'N/A';
+        
+        // Fetch dates (using the column names from your previous generation script)
+        $startDate = isset($cert_row['fromDate']) ? $cert_row['fromDate'] : '';
+        $endDate = isset($cert_row['toDate']) ? $cert_row['toDate'] : '';
+        $issueDate = isset($cert_row['issueDate']) ? $cert_row['issueDate'] : '';
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -25,8 +47,8 @@ $courseName=$cert_row['course'];
         .error { background-color: #f8d7da; color: #721c24; }
         h2 { margin: 10px 0; color: #333; }
         .detail-row { text-align: left; margin: 20px 0; border-top: 1px solid #eee; padding-top: 15px; }
-        .label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
-        .value { font-size: 18px; font-weight: 600; color: #333; margin-bottom: 10px; }
+        .label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-top: 10px; }
+        .value { font-size: 16px; font-weight: 600; color: #333; margin-bottom: 5px; }
         .footer { margin-top: 30px; font-size: 12px; color: #aaa; }
         .btn { display: inline-block; margin-top: 20px; text-decoration: none; background: #0056b3; color: white; padding: 10px 20px; border-radius: 5px; }
     </style>
@@ -34,7 +56,7 @@ $courseName=$cert_row['course'];
 <body>
 
     <div class="card">
-        <?php if ($studentName): ?>
+        <?php if ($isValid): ?>
             <div class="icon success">✓</div>
             <h2>Verified Certificate</h2>
             <p>This certificate is valid and authentic.</p>
@@ -48,9 +70,19 @@ $courseName=$cert_row['course'];
                 
                 <div class="label">Certificate ID</div>
                 <div class="value"><?php echo htmlspecialchars($certID); ?></div>
+
+                <?php if (!empty($startDate) && !empty($endDate)): ?>
+                    <div class="label">Duration</div>
+                    <div class="value"><?php echo htmlspecialchars($startDate . " to " . $endDate); ?></div>
+                <?php endif; ?>
+
+                <?php if (!empty($issueDate)): ?>
+                    <div class="label">Issue Date</div>
+                    <div class="value"><?php echo htmlspecialchars($issueDate); ?></div>
+                <?php endif; ?>
             </div>
             
-            <a href="certificates/cert_<?php echo $certID; ?>.pdf" class="btn">Download PDF</a>
+            <a href="certificates/cert_<?php echo htmlspecialchars($certID); ?>.pdf" class="btn" target="_blank">Download PDF</a>
 
         <?php else: ?>
             <div class="icon error">✕</div>

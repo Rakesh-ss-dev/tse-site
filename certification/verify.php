@@ -34,7 +34,7 @@ $courseName=$cert_row['course'];
 <body>
 
     <div class="card">
-        <?php if ($isValid): ?>
+        <?php if ($studentName): ?>
             <div class="icon success">✓</div>
             <h2>Verified Certificate</h2>
             <p>This certificate is valid and authentic.</p>
@@ -60,7 +60,7 @@ $courseName=$cert_row['course'];
         <?php endif; ?>
         
         <div class="footer">
-            Powered by BeEx Verification System
+            Powered by The Skill Enhancers
         </div>
     </div>
 

@@ -30,5 +30,10 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /home/learnfundoo/public_html/tse/
-            # Run composer to ensure the vendor folder is healthy
-            composer install --no-dev --optimize-autoloader
+            # 1. Force remove the existing vendor folder to avoid scan errors
+            rm -rf vendor
+            # 2. Delete existing lock file to prevent conflicts
+            rm -f composer.lock
+            # 3. Re-install from scratch
+            # We use --no-scripts to prevent any buggy triggers during install
+            composer install --no-dev --optimize-autoloader --no-scripts

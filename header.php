@@ -25,6 +25,9 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="contact.php">CONTACT US</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="pricing.php">PRICING</a>
+            </li>
           </ul>
         </div>
       </div>

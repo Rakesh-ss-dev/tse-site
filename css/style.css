@@ -1160,6 +1160,108 @@ h6 {
   color: #0d6efd;
 }
 
+/* Banners */
+.page-banner {
+  padding: 60px 0;
+  margin-bottom: 50px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Pricing Cards */
+.pricing-card {
+  background: linear-gradient(145deg, #0b2252 0%, #061a45 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 40px 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effect */
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(13, 110, 253, 0.2);
+  border-color: rgba(13, 110, 253, 0.5);
+}
+
+/* Top Accent Line for Cards */
+.pricing-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #0d6efd;
+  border-radius: 16px 16px 0 0;
+  opacity: 0.7;
+}
+
+.pricing-card.premium::before {
+  background: #ffc107; /* Gold accent for Lead Auditor */
+}
+
+/* Pricing Typography */
+.cert-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 25px;
+  min-height: 60px; /* Keeps cards aligned */
+}
+
+.price-inr {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.price-inr span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #adb5bd;
+}
+
+.price-usd {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0dcaf0;
+  margin-bottom: 25px;
+}
+
+.price-usd span {
+  font-size: 0.9rem;
+  color: #adb5bd;
+  font-weight: 400;
+}
+
+/* Notes Box */
+.pricing-notes {
+  background-color: rgba(13, 110, 253, 0.1);
+  border: 1px solid rgba(13, 110, 253, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.pricing-notes ul {
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.pricing-notes li {
+  color: #ced4da;
+  margin-bottom: 8px;
+}
+
 @media all and (min-width: 800px) {
   .tabbed-content .tabs {
     display: block;

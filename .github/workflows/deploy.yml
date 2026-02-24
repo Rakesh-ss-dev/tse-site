@@ -31,7 +31,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /home/learnfundoo/public_html/tse/
-            # Clear old vendor state to prevent "Class not found" errors
             rm -rf vendor
             rm -f composer.lock
             # Install fresh dependencies

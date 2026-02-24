@@ -3,7 +3,7 @@ name: Deploy to cPanel
 on:
   push:
     branches:
-      - main  # Triggers only when you push to the main branch
+      - main
 
 jobs:
   deploy:
@@ -15,7 +15,8 @@ jobs:
       - name: Sync Files via SSH (Rsync)
         uses: Burnett01/rsync-deployments@7.0.0
         with:
-          switches: -avzr --delete
+          # ADDED EXCLUSIONS BELOW
+          switches: -avzr --delete --exclude='.env' --exclude='certification/*.pdf'
           path: ./ 
           remote_path: /home/learnfundoo/public_html/tse/
           remote_host: ${{ secrets.REMOTE_HOST }}
@@ -30,10 +31,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /home/learnfundoo/public_html/tse/
-            # 1. Force remove the existing vendor folder to avoid scan errors
+            # Clear old vendor state to prevent "Class not found" errors
             rm -rf vendor
-            # 2. Delete existing lock file to prevent conflicts
             rm -f composer.lock
-            # 3. Re-install from scratch
-            # We use --no-scripts to prevent any buggy triggers during install
+            # Install fresh dependencies
             composer install --no-dev --optimize-autoloader --no-scripts

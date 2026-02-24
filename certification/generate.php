@@ -36,7 +36,7 @@ function generateCertificate($studentName, $certID, $startDate, $endDate, $issue
         $pdf->SetFont('actay', '', 24);
         $pdf->SetTextColor(0, 0, 0);
         $pdf->SetXY(80, 77); 
-        $pdf->Write(0, $studentName);
+        $pdf->Cell(120, 0, $studentName, 0, 0, 'C');
     }
     
     // Set font once for all dates to keep code clean
@@ -56,7 +56,7 @@ function generateCertificate($studentName, $certID, $startDate, $endDate, $issue
     }
 
     $pdf->SetXY(60,128);
-    $pdf->Write(0,$uniqueID);
+    $pdf->Cell(53,0,$uniqueID,0,0,'C');
     
     // 4. ISSUE DATE (Only print if not empty - Adjusted X coordinate)
     if (!empty($issueDate)) {
@@ -93,16 +93,10 @@ $selectQuery = 'SELECT * FROM `certificates_new` where id BETWEEN 30 AND 46';
 $selectResult = $conn->query($selectQuery);
 
 while($row = $selectResult->fetch_assoc()){
-    
-    // 1. Generate the PDF 
-    // (If $row['certId'] has a value, the function will use it. If empty, it makes a new one).
-    $uniqueId = generateCertificate($row['name'], $row['certId'], $row['fromDate'], $row['toDate'], $row['issueDate']);
-    
-    // 2. ONLY update the database if the record did not already have a certId
-    if (empty($row['certId'])) {
+     $uniqueId = generateCertificate($row['name'], $row['certId'], $row['fromDate'], $row['toDate'], $row['issueDate']);
+     if (empty($row['certId'])) {
         $updateQuery = "UPDATE `certificates_new` SET `certId`='" . $uniqueId . "' WHERE `id`='" . $row['id'] . "'";
         $conn->query($updateQuery);
-    }
-    
+    } 
 }
 ?>

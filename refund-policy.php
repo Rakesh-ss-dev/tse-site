@@ -33,6 +33,7 @@
                             <ul class="tse-list">
                                 <li>Request within <b class="text-white">3 days</b> of purchase.</li>
                                 <li>Completion must be less than <b class="text-white">5%</b> of content.</li>
+                                <li>Refunds will be credited with in <b class="text-white">7 days</b></li>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +53,6 @@
                     <p class="mb-3">Email our support at <b class="text-info">info@tseedu.com</b> with order details.</p>
                     <div class="p-3 rounded" style="background: rgba(13, 202, 240, 0.1); border: 1px solid rgba(13, 202, 240, 0.2);">
                         <ul class="mb-0 list-unstyled">
-                            <li class="mb-2"><i class="bi bi-arrow-right-short text-info"></i> Processing time: <b>15 business days</b>.</li>
                             <li><i class="bi bi-arrow-right-short text-info"></i> Reimbursed via original payment method.</li>
                         </ul>
                     </div>

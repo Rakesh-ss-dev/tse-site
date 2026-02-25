@@ -32,7 +32,7 @@
                     </div>
                     <h3 class="cert-title">ISO 27001<br><span class="text-primary">Lead Implementor</span></h3>
                     
-                    <div class="price-inr">₹18,500</div>
+                    <div class="price-inr">₹19,170</div>
                     <div class="price-usd">$213 <span>USD</span></div>
                     
                     <!-- <div class="mt-auto">
@@ -48,7 +48,7 @@
                     </div>
                     <h3 class="cert-title">ISO 27001<br><span class="text-warning">Lead Auditor</span></h3>
                     
-                    <div class="price-inr">₹24,500</div>
+                    <div class="price-inr">₹25,290</div>
                     <div class="price-usd">$281 <span>USD</span></div>
                     
                     <!-- <div class="mt-auto">
@@ -64,7 +64,7 @@
                     </div>
                     <h3 class="cert-title">ISO 42001<br><span class="text-primary">Lead Implementor</span></h3>
                     
-                    <div class="price-inr">₹28,500</div>
+                    <div class="price-inr">₹29,520</div>
                     <div class="price-usd">$328 <span>USD</span></div>
                     
                     <!-- <div class="mt-auto">
@@ -80,7 +80,7 @@
                     </div>
                     <h3 class="cert-title">ISO 42001<br><span class="text-warning">Lead Auditor</span></h3>
                     
-                    <div class="price-inr">₹31,500</div>
+                    <div class="price-inr">₹32,580</div>
                     <div class="price-usd">$362 <span>USD</span></div>
                     
                     <!-- <div class="mt-auto">

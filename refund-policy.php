@@ -27,8 +27,8 @@
             <div class="col-lg-10">
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="section-card h-100">
+                    <div class="col-md-6 mb-4">
+                        <div class="section-card m-0 h-100">
                             <span class="consistencyhead"><i class="bi bi-hourglass-split me-2"></i>Eligibility</span>
                             <ul class="tse-list">
                                 <li>Request within <b class="text-white">3 days</b> of purchase.</li>
@@ -37,8 +37,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="section-card h-100">
+                    <div class="col-md-6 mb-4">
+                        <div class="section-card m-0 h-100">
                             <span class="consistencyhead"><i class="bi bi-check-circle me-2"></i>Grounds for Refund</span>
                             <ul class="tse-list">
                                 <li>Unresolved technical impediments blocking access.</li>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="section-card mt-4">
+                <div class="section-card">
                     <span class="consistencyhead">Refund Process</span>
                     <p class="mb-3">Email our support at <b class="text-info">info@tseedu.com</b> with order details.</p>
                     <div class="p-3 rounded" style="background: rgba(13, 202, 240, 0.1); border: 1px solid rgba(13, 202, 240, 0.2);">

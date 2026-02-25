@@ -1,10 +1,16 @@
+# --- Security & Credentials ---
 .env
-/certification/TSECertificate.pdf
-/certification/HCLCertificate.pdf
+.env.*
+config.php.local
+/certification/*.pdf
 /certification/generate.php
-/certification/template.pdf
-/certification/temp
+
+# --- Dependencies & Build Tools ---
 /vendor/
+node_modules/
+.phpunit.result.cache
+
+# --- IDE & Editor Private Files ---
 .idea/
 .vscode/
 *.suo
@@ -12,27 +18,19 @@
 *.njsproj
 *.sln
 *.sw?
+.buildpath
+.project
+.settings/
+
+# --- Operating System Junk ---
 .DS_Store
 .DS_Store?
 ._*
 Thumbs.db
 ehthumbs.db
 desktop.ini
+
+# --- Logs ---
 *.log
 access_log
 error_log
-.phpunit.result.cache
-
-
-
-# Environment and Credentials
-
-# ----------------------
-
-.env
-
-.env.local
-
-.env.*.local
-
-config.php.local

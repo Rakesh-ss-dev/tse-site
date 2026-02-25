@@ -4,6 +4,7 @@
 config.php.local
 /certification/*.pdf
 /certification/generate.php
+/certification/temp/
 
 # --- Dependencies & Build Tools ---
 /vendor/

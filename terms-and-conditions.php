@@ -31,35 +31,35 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Acceptance of Terms</span>
+                    <span class="consistency-head">Acceptance of Terms</span>
                     <ul class="tse-list">
                         <li>By accessing <b>"tseedu.com"</b>, you agree to these Terms and Conditions. If you do not agree, please refrain from using our Site.</li>
                     </ul>
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Use of Services</span>
+                    <span class="consistency-head">Use of Services</span>
                     <ul class="tse-list">
                         <li>We provide online software training courses. By enrolling, you agree to abide by any specific course guidelines.</li>
                     </ul>
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">User Accounts</span>
+                    <span class="consistency-head">User Accounts</span>
                     <ul class="tse-list">
                         <li>You are responsible for maintaining the confidentiality of your LMS account credentials and all activities under your account.</li>
                     </ul>
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Intellectual Property</span>
+                    <span class="consistency-head">Intellectual Property</span>
                     <ul class="tse-list">
                         <li>All content (text, graphics, logos, videos, software) is the property of The Skill Enhancers and protected by copyright laws.</li>
                     </ul>
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Course Enrollment & Payment</span>
+                    <span class="consistency-head">Course Enrollment & Payment</span>
                     <ul class="tse-list">
                         <li>Enrollment is subject to availability and fee payment.</li>
                         <li>Payments are processed securely via our gateway. We do not store your payment details.</li>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Limitation of Liability</span>
+                    <span class="consistency-head">Limitation of Liability</span>
                     <ul class="tse-list">
                         <li>The Skill Enhancers shall not be liable for direct, indirect, or consequential damages arising from your use of the Site.</li>
                     </ul>

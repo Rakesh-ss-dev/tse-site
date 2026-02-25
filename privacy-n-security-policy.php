@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead"><i class="bi bi-file-lock me-2"></i>Data Collection</span>
+                    <span class="consistency-head"><i class="bi bi-file-lock me-2"></i>Data Collection</span>
                     <ul class="tse-list">
                         <li><b>Voluntary:</b> You will be informed of specific purposes when asked for info.</li>
                         <li><b>Security:</b> Adequate measures are taken to protect your data.</li>
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead"><i class="bi bi-shield-check me-2"></i>Sharing & Protection</span>
+                    <span class="consistency-head"><i class="bi bi-shield-check me-2"></i>Sharing & Protection</span>
                     <ul class="tse-list">
                         <li><b>No Selling:</b> We do not sell/share your info with third parties.</li>
                         <li><b>Protection:</b> Data is secured against loss, misuse, or unauthorized access.</li>
@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead"><i class="bi bi-server me-2"></i>Technical Logs</span>
+                    <span class="consistency-head"><i class="bi bi-server me-2"></i>Technical Logs</span>
                     <p class="mb-3">We gather standard non-personal logs including IP addresses, browser type, date/time, and pages visited.</p>
                     <p class="text-light-muted small">We make no attempt to link these addresses with the identity of individuals unless an attempt to damage the site has been detected.</p>
                 </div>
@@ -56,7 +56,7 @@
                     <h2 class="text-white text-center mb-4 fw-bold">Information Security Policy</h2>
                     <p class="text-center text-info mb-4">Transform | Succeed | Excel</p>
                     <div class="section-card border-start border-4 border-info">
-                                <span class="consistencyhead text-info"><i class="bi bi-patch-check-fill me-2"></i>Our Security Promise</span>
+                                <span class="consistency-head text-info"><i class="bi bi-patch-check-fill me-2"></i>Our Security Promise</span>
                                 <p class="mb-3">We protect every piece of information entrusted to us.</p>
                                 <blockquote class="blockquote fs-6 text-light-muted fst-italic border-start ps-3 border-secondary">
                                     "Information is one of our most valuable assets… protecting this information is essential to maintain trust."
@@ -67,7 +67,7 @@
                     <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="section-card h-100">
-                                        <span class="consistencyhead"><i class="bi bi-safe2 me-2"></i>What We Protect</span>
+                                        <span class="consistency-head"><i class="bi bi-safe2 me-2"></i>What We Protect</span>
                                         <ul class="list-unstyled">
                                             <li class="mb-3">
                                                 <strong class="text-white"><i class="bi bi-person-badge text-primary me-2"></i>Learner Data</strong><br>
@@ -91,7 +91,7 @@
 
                                 <div class="col-md-6">
                                     <div class="section-card h-100">
-                                        <span class="consistencyhead"><i class="bi bi-bricks me-2"></i>Our Security Principles</span>
+                                        <span class="consistency-head"><i class="bi bi-bricks me-2"></i>Our Security Principles</span>
                                         <ul class="list-unstyled">
                                             <li class="mb-3">
                                                 <strong class="text-white"><i class="bi bi-eye-slash-fill text-danger me-2"></i>Confidentiality</strong><br>
@@ -110,7 +110,7 @@
                                 </div>
                     </div>
                     <div class="section-card mt-4">
-                                <span class="consistencyhead"><i class="bi bi-shield-lock me-2"></i>How We Safeguard Information</span>
+                                <span class="consistency-head"><i class="bi bi-shield-lock me-2"></i>How We Safeguard Information</span>
                                 <div class="row row-cols-1 row-cols-md-2 g-3">
                                     <div class="col">
                                         <div class="mb-2"><i class="bi bi-sliders me-2 text-info"></i><strong>Risk-Based Controls:</strong></div>
@@ -135,7 +135,7 @@
                                 </div>
                     </div>
                     <div class="section-card">
-                                <span class="consistencyhead"><i class="bi bi-arrow-repeat me-2"></i>Continuous Improvement</span>
+                                <span class="consistency-head"><i class="bi bi-arrow-repeat me-2"></i>Continuous Improvement</span>
                                 <p>We follow the Plan–Do–Check–Act (PDCA) cycle:</p>
                                 <div class="d-flex justify-content-between flex-wrap text-center my-3 gap-2">
                                     <div class="bg-dark border border-secondary p-2 rounded flex-fill"><strong class="text-primary">Plan</strong><br><small>Identify risks</small></div>
@@ -146,7 +146,7 @@
                                 <p class="fst-italic text-light-muted mb-0">"The organization shall continually improve the suitability, adequacy and effectiveness of the ISMS."</p>
                     </div>
                     <div class="section-card bg-primary bg-opacity-10 border-primary">
-                                <span class="consistencyhead text-primary border-primary"><i class="bi bi-hand-thumbs-up-fill me-2"></i>Our Commitment to You</span>
+                                <span class="consistency-head text-primary border-primary"><i class="bi bi-hand-thumbs-up-fill me-2"></i>Our Commitment to You</span>
                                 <p class="mb-0 text-white">We ensure secure, reliable, and future-ready learning experiences — protecting your data while empowering your growth.</p>
                     </div>
                     <div class="contact-box mt-4">

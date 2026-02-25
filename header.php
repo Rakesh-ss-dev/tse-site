@@ -37,8 +37,8 @@
 <section class="sticky-top">
   <div class="course-slider bg-light-blue">
     <div id="home-course-slider" class="d-flex justify-content-between">
-      <?php $relevent = [11, 4, 6, 18, 8, 10, 16];
-      $ids = implode(',', $relevent);
+      <?php $relevant = [11, 4, 6, 18, 8, 10, 16];
+      $ids = implode(',', $relevant);
       $sql = "SELECT * FROM compentecy_category WHERE category_id IN ($ids) ORDER BY FIELD(category_id, $ids)";
       $result = mysqli_query($conn, $sql);
       while ($row = mysqli_fetch_assoc($result)) { ?>

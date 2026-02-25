@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-4">
                         <div class="section-card m-0 h-100">
-                            <span class="consistencyhead"><i class="bi bi-hourglass-split me-2"></i>Eligibility</span>
+                            <span class="consistency-head"><i class="bi bi-hourglass-split me-2"></i>Eligibility</span>
                             <ul class="tse-list">
                                 <li>Request within <b class="text-white">3 days</b> of purchase.</li>
                                 <li>Completion must be less than <b class="text-white">5%</b> of content.</li>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="section-card m-0 h-100">
-                            <span class="consistencyhead"><i class="bi bi-check-circle me-2"></i>Grounds for Refund</span>
+                            <span class="consistency-head"><i class="bi bi-check-circle me-2"></i>Grounds for Refund</span>
                             <ul class="tse-list">
                                 <li>Unresolved technical impediments blocking access.</li>
                                 <li>Content differs significantly from advertisements.</li>
@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Refund Process</span>
+                    <span class="consistency-head">Refund Process</span>
                     <p class="mb-3">Email our support at <b class="text-info">info@tseedu.com</b> with order details.</p>
                     <div class="p-3 rounded" style="background: rgba(13, 202, 240, 0.1); border: 1px solid rgba(13, 202, 240, 0.2);">
                         <ul class="mb-0 list-unstyled">
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead" style="color: #ea868f;">Items Not Eligible</span>
+                    <span class="consistency-head" style="color: #ea868f;">Items Not Eligible</span>
                     <ul class="tse-list">
                         <li style="color: #e0e0e0;">Courses completed > 5%.</li>
                         <li style="color: #e0e0e0;">Promotional/Special offer purchases.</li>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="section-card">
-                    <span class="consistencyhead">Cancellation Policy</span>
+                    <span class="consistency-head">Cancellation Policy</span>
                     <ul class="tse-list">
                         <li>Cancellation requests must be made within <b class="text-white">3 days</b> from purchase.</li>
                     </ul>

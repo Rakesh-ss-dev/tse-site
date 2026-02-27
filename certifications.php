@@ -31,13 +31,11 @@
                         <i class="bi bi-shield-check fs-1 text-primary"></i>
                     </div>
                     <h3 class="cert-title">ISO 27001<br><span class="text-primary">Lead Implementor</span></h3>
+                    <div class="price-inr">$213 <span>USD</span></div>
                     
-                    <div class="price-inr">₹19,170</div>
-                    <div class="price-usd">$213 <span>USD</span></div>
-                    
-                    <!-- <div class="mt-auto">
-                        <a href="contact.php" class="btn btn-outline-primary w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="https://rzp.io/rzp/aPR0KgKD" target="_blank" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 
@@ -47,13 +45,11 @@
                         <i class="bi bi-award-fill fs-1 text-warning"></i>
                     </div>
                     <h3 class="cert-title">ISO 27001<br><span class="text-warning">Lead Auditor</span></h3>
+                    <div class="price-inr">$281 <span>USD</span></div>
                     
-                    <div class="price-inr">₹25,290</div>
-                    <div class="price-usd">$281 <span>USD</span></div>
-                    
-                    <!-- <div class="mt-auto">
-                        <a href="contact.php" class="btn btn-outline-warning w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="https://rzp.io/rzp/8sxVWpXN" target="_blank" class="btn btn-outline-warning w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 
@@ -63,13 +59,11 @@
                         <i class="bi bi-cpu-fill fs-1 text-primary"></i>
                     </div>
                     <h3 class="cert-title">ISO 42001<br><span class="text-primary">Lead Implementor</span></h3>
+                    <div class="price-inr">$328 <span>USD</span></div>
                     
-                    <div class="price-inr">₹29,520</div>
-                    <div class="price-usd">$328 <span>USD</span></div>
-                    
-                    <!-- <div class="mt-auto">
-                        <a href="contact.php" class="btn btn-outline-primary w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="https://rzp.io/rzp/hGjx6Ee" target="_blank" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 
@@ -79,13 +73,11 @@
                         <i class="bi bi-patch-check-fill fs-1 text-warning"></i>
                     </div>
                     <h3 class="cert-title">ISO 42001<br><span class="text-warning">Lead Auditor</span></h3>
+                    <div class="price-inr">$362 <span>USD</span></div>
                     
-                    <div class="price-inr">₹32,580</div>
-                    <div class="price-usd">$362 <span>USD</span></div>
-                    
-                    <!-- <div class="mt-auto">
-                        <a href="contact.php" class="btn btn-outline-warning w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="https://rzp.io/rzp/UIsOiBgu" target="_blank" class="btn btn-outline-warning w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 

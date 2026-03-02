@@ -821,7 +821,7 @@ h6 {
 .methodology-card::before {
   content: "";
   display: inline-block;
-  background: url(../images/methology-before.svg);
+  background: url(../images/methodology-before.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 45px;
@@ -831,7 +831,7 @@ h6 {
   position: absolute;
   top: 0;
 }
-.methology-content {
+.methodology-content {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 45px;
@@ -858,12 +858,12 @@ h6 {
   border-radius: 20px;
 }
 
-.methology-list li {
+.methodology-list li {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.methology-list li::before {
+.methodology-list li::before {
   content: "";
   display: inline-block;
   width: 8px;

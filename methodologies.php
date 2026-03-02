@@ -126,7 +126,7 @@
                             <div class="row align-items-stretch my-4">
                                 <div class="col-md-3">
                                     <div class="methodology-card">
-                                        <div class="methology-content">
+                                        <div class="methodology-content">
                                             <h6 class="text-light-blue fw-bold">DISCOVERY</h6>
                                             <p class="text-white small">Need identification</p>
                                             <p class="text-white small">Initial response and scoping (Business Need,
@@ -138,7 +138,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="methodology-card">
-                                        <div class="methology-content">
+                                        <div class="methodology-content">
                                             <h6 class="text-light-blue fw-bold">READINESS</h6>
                                             <p class="text-white small">Technical scoping (Business need, Learning
                                                 expectations,
@@ -154,7 +154,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="methodology-card">
-                                        <div class="methology-content">
+                                        <div class="methodology-content">
                                             <h6 class="text-light-blue fw-bold">DESIGN</h6>
                                             <p class="text-white small">Quality (Model, SLA & Governance, Training
                                                 Effectiveness,
@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="methodology-card">
-                                        <div class="methology-content">
+                                        <div class="methodology-content">
                                             <h6 class="text-light-blue fw-bold">DELIVERY</h6>
                                             <p class="text-white small">In-session (Learning Objective Compatibility,
                                                 Engagement
@@ -228,7 +228,7 @@
                                         that
                                         optimally address the gaps.</p>
                                 </div>
-                                <ul class="text-white methology-list list-unstyled mt-5">
+                                <ul class="text-white methodology-list list-unstyled mt-5">
                                     <li>Training need analysis</li>
                                     <li>Training gap analysis</li>
                                     <li>Target audience analysis</li>
@@ -247,7 +247,7 @@
                                                 training
                                                 requirement - and the desired learning outcome.</p>
                                         </div>
-                                        <ul class="text-white methology-list list-unstyled mt-5">
+                                        <ul class="text-white methodology-list list-unstyled mt-5">
                                             <li>Learning approach</li>
                                             <li>Delivery approach</li>
                                             <li>Learning tools</li>
@@ -267,7 +267,7 @@
                                                 based on
                                                 their profiling.</p>
                                         </div>
-                                        <ul class="text-white methology-list list-unstyled mt-5">
+                                        <ul class="text-white methodology-list list-unstyled mt-5">
                                             <li>Technical aspects</li>
                                             <li>Infrastructure</li>
                                             <li>Milestones & process</li>

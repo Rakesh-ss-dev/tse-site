@@ -17,15 +17,27 @@
 
 <?php
 require_once 'dbconfig.php';
+
 // Fetch certification details based on URL parameter
 $certId = isset($_GET['cert_id']) ? intval($_GET['cert_id']) : 0;
-$stmt = $conn->prepare("SELECT title, amount FROM certifications WHERE id = ?");
-$stmt->bind_param("i", $certId);
-$stmt->execute();
-$stmt->bind_result($title, $amount);
 
-if (!$title) {
-    die("<div class='container mt-5 alert alert-danger'>Invalid Certification Selected.</div>");
+if ($certId > 0) {
+    $stmt = $conn->prepare("SELECT title, amount FROM certifications WHERE id = ?");
+    $stmt->bind_param("i", $certId);
+    $stmt->execute();
+    $stmt->bind_result($boundTitle, $boundAmount); 
+
+    if ($stmt->fetch()) {
+        $message = $boundTitle;
+        $amountInRupees = $boundAmount;
+    } else {
+        die("<div class='container mt-5 alert alert-danger'>Error: Certification not found.</div>");
+    }
+    
+    // VERY IMPORTANT: Close the statement so the connection is free
+    $stmt->close(); 
+} else {
+    die("<div class='container mt-5 alert alert-danger'>Invalid Request.</div>");
 }
 ?>
 
@@ -36,11 +48,11 @@ if (!$title) {
             
             <div class="alert alert-light border mb-4">
                 <div class="d-flex justify-content-between">
-                    <strong>Item:</strong> <span><?php echo htmlspecialchars($title); ?></span>
+                    <strong>Item:</strong> <span><?php echo htmlspecialchars($message); ?></span>
                 </div>
                 <hr>
                 <div class="d-flex justify-content-between">
-                    <strong>Total:</strong> <span class="text-primary h5">₹<?php echo number_format($amount, 2); ?></span>
+                    <strong>Total:</strong> <span class="text-primary h5">₹<?php echo number_format($amountInRupees, 2); ?></span>
                 </div>
             </div>
 

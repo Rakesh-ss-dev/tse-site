@@ -21,7 +21,9 @@ $stmt->bind_param("i", $certId);
 $stmt->execute();
 $stmt->bind_result($title, $amount);
 
-if (!$res) { die("Invalid Certification"); }
+if (!$stmt->fetch()) { 
+    die("Invalid Certification Selection."); 
+}
 
 $amountInRupees = $amount;
 $message = $title;
@@ -40,8 +42,7 @@ $clientId      = $_ENV['CLIENT_ID'];
 $clientVersion = $_ENV['CLIENT_VERSION'];
 $clientSecret  = $_ENV['CLIENT_SECRET'];
 $env           = Env::PRODUCTION; 
-$redirectUrl   = "https://tseedu.com/status.php"; // Update this!
-$callbackUrl   = "https://tseedu.com/webhook.php"; // Added for background update
+$redirectUrl   = "https://tseedu.com/status.php";
 
 $client = StandardCheckoutClient::getInstance($clientId, $clientVersion, $clientSecret, $env); 
 

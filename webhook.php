@@ -13,7 +13,7 @@ use PhonePe\Env;
 
 // 1. Basic Auth Check (Matching your screenshot)
 $expectedUser = $_ENV['WEBHOOK_USERNAME']; 
-$expectedPass = $_ENV['WEBHOOK_Password'];
+$expectedPass = $_ENV['WEBHOOK_PASSWORD'];
 
 if (!isset($_SERVER['PHP_AUTH_USER']) || 
     ($_SERVER['PHP_AUTH_USER'] !== $expectedUser || $_SERVER['PHP_AUTH_PW'] !== $expectedPass)) {

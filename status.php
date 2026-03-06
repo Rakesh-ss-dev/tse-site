@@ -8,7 +8,6 @@ $dotenv->load();
 use PhonePe\payments\v2\standardCheckout\StandardCheckoutClient;
 use PhonePe\Env;
 
-// PhonePe sends the transaction ID back in the redirect URL
 $merchantOrderId = $_GET['tid'] ?? $_POST['merchantOrderId'] ?? '';
 
 $isSuccess = false;
@@ -21,17 +20,40 @@ if ($merchantOrderId) {
 
     try {
         $response = $client->getOrderStatus($merchantOrderId);
+        
         if ($response->getState() === "COMPLETED") {
             $isSuccess = true;
-            // Immediate UI update in case webhook is slow
             $pTxnId = $response->getOrderId();
-            $conn->query("UPDATE payments SET status = 'COMPLETED', transaction_id = '$pTxnId' WHERE merchant_order_id = '$merchantOrderId'");
             
-            // Fetch details for the receipt
-            $res = $conn->query("SELECT p.*, c.title FROM payments p JOIN certifications c ON p.cert_id = c.id WHERE p.merchant_order_id = '$merchantOrderId'");
-            $txnDetails = $res->fetch_assoc();
+            // 1. Update status using Prepared Statement (Safe for your server)
+            $upd = $conn->prepare("UPDATE payments SET status = 'COMPLETED', transaction_id = ? WHERE merchant_order_id = ? AND status != 'COMPLETED'");
+            $upd->bind_param("ss", $pTxnId, $merchantOrderId);
+            $upd->execute();
+            $upd->close();
+            
+            // 2. Fetch details for the receipt using bind_result
+            $sql = "SELECT p.amount_paid, c.title, c.id 
+                    FROM payments p 
+                    JOIN certifications c ON p.cert_id = c.id 
+                    WHERE p.merchant_order_id = ?";
+            
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("s", $merchantOrderId);
+            $stmt->execute();
+            $stmt->bind_result($amt, $title, $cId);
+            
+            if ($stmt->fetch()) {
+                $txnDetails = [
+                    'amount_paid' => $amt,
+                    'title' => $title,
+                    'id' => $cId
+                ];
+            }
+            $stmt->close();
         }
-    } catch (Exception $e) { $error = $e->getMessage(); }
+    } catch (Exception $e) { 
+        $error = $e->getMessage(); 
+    }
 }
 ?>
 
@@ -63,25 +85,25 @@ if ($merchantOrderId) {
                 <div class="bg-light p-4 rounded-3 text-start mb-4">
                     <div class="d-flex justify-content-between mb-2">
                         <span class="text-muted">Item:</span>
-                        <strong><?php echo $txnDetails['title']; ?></strong>
+                        <strong><?php echo htmlspecialchars($txnDetails['title'] ?? 'Certification'); ?></strong>
                     </div>
                     <div class="d-flex justify-content-between mb-2">
                         <span class="text-muted">Order ID:</span>
-                        <span class="small"><?php echo $merchantOrderId; ?></span>
+                        <span class="small"><?php echo htmlspecialchars($merchantOrderId); ?></span>
                     </div>
                     <div class="d-flex justify-content-between">
                         <span class="text-muted">Amount Paid:</span>
-                        <strong class="text-dark">₹<?php echo number_format($txnDetails['amount_paid'], 2); ?></strong>
+                        <strong class="text-dark">₹<?php echo number_format($txnDetails['amount_paid'] ?? 0, 2); ?></strong>
                     </div>
                 </div>
                 
-                <a href="index.php" class="btn btn-primary btn-lg w-100 rounded-pill">Back to Home</a>
+                <a href="/" class="btn btn-primary btn-lg w-100 rounded-pill">Back to Home</a>
 
             <?php else: ?>
                 <div class="icon-box fail-text"><i class="bi bi-x-circle-fill"></i></div>
                 <h2 class="fw-bold mb-3">Payment Failed</h2>
-                <p class="text-muted">Something went wrong with your transaction. No money was deducted from your account.</p>
-                <a href="index.php" class="btn btn-outline-danger mt-3">Try Again</a>
+                <p class="text-muted">Something went wrong with your transaction. If money was deducted, it will be refunded automatically.</p>
+                <a href="certifications.php" class="btn btn-outline-danger mt-3">Try Again</a>
             <?php endif; ?>
         </div>
     </div>

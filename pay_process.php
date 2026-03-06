@@ -55,11 +55,9 @@ $payRequest = StandardCheckoutPayRequestBuilder::builder()
     ->amount($amountInPaise)
     ->redirectUrl($redirectUrl)
     ->message($message)  //Optional Message
-    ->udf1('udf1')
-    ->udf2('udf2')
-    ->udf3('udf3')
-    ->udf4('udf4')
-    ->udf5('udf5')
+    ->udf1($name)
+    ->udf2($email)
+    ->udf3($phone)
     ->build();
 
 try {

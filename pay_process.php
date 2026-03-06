@@ -53,7 +53,7 @@ $client = StandardCheckoutClient::getInstance($clientId, $clientVersion, $client
 // 6. Build Request (Standard V2 Pattern)
 $payRequest = StandardCheckoutPayRequestBuilder::builder()
     ->merchantOrderId($merchantOrderId)
-    ->amount($amount)
+    ->amount($amountInPaise)
     ->redirectUrl($redirectUrl)
     ->message($message)  //Optional Message
     ->udf1('udf1')

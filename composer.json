@@ -1,9 +1,30 @@
 {
-    "require": {
-        "vlucas/phpdotenv": "^5.6",
-        "setasign/fpdi": "^2.6",
-        "setasign/fpdf": "^1.8",
-        "chillerlan/php-qrcode": "^5.0",
-        "razorpay/razorpay": "2.*"
+  "repositories": [
+    {
+      "type": "package",
+      "url": "./vendor/phonepe/pg-sdk-php/",
+      "package": {
+        "name": "phonepe/pg-php-sdk-v2",
+        "version": "2.0.0",
+        "dist": {
+          "url": "https://phonepe.mycloudrepo.io/public/repositories/phonepe-pg-php-sdk/v2-sdk.zip",
+          "type": "zip"
+        },
+        "autoload": {
+          "classmap": [
+            "/"
+          ]
+        }
+      }
     }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "setasign/fpdi": "^2.6",
+    "setasign/fpdf": "^1.8",
+    "chillerlan/php-qrcode": "^5.0",
+    "razorpay/razorpay": "2.*",
+    "phonepe/pg-php-sdk-v2": "^2.0",
+    "netresearch/jsonmapper": "^4.4"
+  }
 }

@@ -33,9 +33,9 @@
                     <h3 class="cert-title">ISO 27001<br><span class="text-primary">Lead Implementor</span></h3>
                     <div class="price-inr">$213 <span>USD</span></div>
                     <div class="price-usd">₹19,170 <span>INR</span></div>
-                    <!-- <div class="mt-auto">
-                        <a href="https://rzp.io/rzp/aPR0KgKD" target="_blank" class="btn btn-outline-primary w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="pay.php?cert_id=1" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 
@@ -47,9 +47,9 @@
                     <h3 class="cert-title">ISO 27001<br><span class="text-warning">Lead Auditor</span></h3>
                     <div class="price-inr">$281 <span>USD</span></div>
                     <div class="price-usd">₹25,290 <span>INR</span></div>
-                    <!-- <div class="mt-auto">
-                        <a href="https://rzp.io/rzp/8sxVWpXN" target="_blank" class="btn btn-outline-warning w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="pay.php?cert_id=2" class="btn btn-outline-warning w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 
@@ -61,9 +61,9 @@
                     <h3 class="cert-title">ISO 42001<br><span class="text-primary">Lead Implementor</span></h3>
                     <div class="price-inr">$328 <span>USD</span></div>
                     <div class="price-usd">₹29,520 <span>INR</span></div>
-                    <!-- <div class="mt-auto">
-                        <a href="https://rzp.io/rzp/hGjx6Ee" target="_blank" class="btn btn-outline-primary w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="pay.php?cert_id=3" class="btn btn-outline-primary w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 
@@ -75,9 +75,9 @@
                     <h3 class="cert-title">ISO 42001<br><span class="text-warning">Lead Auditor</span></h3>
                     <div class="price-inr">$362 <span>USD</span></div>
                     <div class="price-usd">₹32,580 <span>INR</span></div>
-                    <!-- <div class="mt-auto">
-                        <a href="https://rzp.io/rzp/UIsOiBgu" target="_blank" class="btn btn-outline-warning w-100">Enroll Now</a>
-                    </div> -->
+                    <div class="mt-auto">
+                        <a href="pay.php?cert_id=4" class="btn btn-outline-warning w-100">Enroll Now</a>
+                    </div>
                 </div>
             </div>
 

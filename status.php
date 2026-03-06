@@ -61,50 +61,124 @@ if ($merchantOrderId) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Status - TSE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        body { background-color: #f4f7f6; }
-        .status-card { max-width: 600px; margin: 80px auto; border-radius: 15px; overflow: hidden; }
-        .icon-box { font-size: 4rem; margin-bottom: 20px; }
-        .success-text { color: #28a745; }
-        .fail-text { color: #dc3545; }
+        body { 
+            background-color: #03153b !important; 
+            font-family: 'Poppins', sans-serif;
+            color: #e0e6ed;
+        }
+        
+        /* Centering the card vertically and horizontally */
+        .status-container { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        /* Dark Theme Card */
+        .status-card { 
+            width: 100%;
+            max-width: 500px; 
+            background-color: #0b2252;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px; 
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            overflow: hidden; 
+        }
+        
+        /* Glowing Icons */
+        .icon-box { 
+            font-size: 5rem; 
+            margin-bottom: 15px; 
+            line-height: 1;
+        }
+        .success-text { 
+            color: #20c997; 
+            text-shadow: 0 0 25px rgba(32, 201, 151, 0.4); 
+        }
+        .fail-text { 
+            color: #ff4d4d; 
+            text-shadow: 0 0 25px rgba(255, 77, 77, 0.4); 
+        }
+        
+        /* Receipt Details Box */
+        .receipt-box {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .text-light-muted { color: #adb5bd; }
+        
+        /* Custom Button */
+        .btn-status {
+            padding: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="card status-card shadow-lg border-0">
-        <div class="card-body p-5 text-center">
+<div class="status-container">
+    <div class="card status-card">
+        <div class="card-body p-4 p-md-5 text-center">
+            
             <?php if ($isSuccess): ?>
-                <div class="icon-box success-text"><i class="bi bi-check-circle-fill"></i></div>
-                <h2 class="fw-bold mb-3">Payment Successful!</h2>
-                <p class="text-muted mb-4">Thank you for your purchase. Your certification is now being processed.</p>
                 
-                <div class="bg-light p-4 rounded-3 text-start mb-4">
-                    <div class="d-flex justify-content-between mb-2">
-                        <span class="text-muted">Item:</span>
-                        <strong><?php echo htmlspecialchars($txnDetails['title'] ?? 'Certification'); ?></strong>
+                <div class="icon-box success-text">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+                <h2 class="fw-bold mb-2 text-white">Payment Successful!</h2>
+                <p class="text-light-muted mb-4 small">Thank you for your purchase. Your certification is now being processed.</p>
+                
+                <div class="receipt-box text-start mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3 pb-3 border-bottom border-secondary border-opacity-25">
+                        <span class="text-light-muted">Item:</span>
+                        <strong class="text-white text-end ms-3"><?php echo htmlspecialchars($txnDetails['title'] ?? 'Certification'); ?></strong>
                     </div>
-                    <div class="d-flex justify-content-between mb-2">
-                        <span class="text-muted">Order ID:</span>
-                        <span class="small"><?php echo htmlspecialchars($merchantOrderId); ?></span>
+                    <div class="d-flex justify-content-between align-items-center mb-3 pb-3 border-bottom border-secondary border-opacity-25">
+                        <span class="text-light-muted">Order ID:</span>
+                        <span class="small text-white text-break text-end ms-3 font-monospace"><?php echo htmlspecialchars($merchantOrderId); ?></span>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <span class="text-muted">Amount Paid:</span>
-                        <strong class="text-dark">₹<?php echo number_format($txnDetails['amount_paid'] ?? 0, 2); ?></strong>
+                    <div class="d-flex justify-content-between align-items-center pt-1">
+                        <span class="text-light-muted">Amount Paid:</span>
+                        <strong class="text-info fs-4">₹<?php echo number_format($txnDetails['amount_paid'] ?? 0, 2); ?></strong>
                     </div>
                 </div>
                 
-                <a href="/" class="btn btn-primary btn-lg w-100 rounded-pill">Back to Home</a>
+                <a href="/" class="btn btn-primary btn-lg w-100 rounded-3 btn-status">
+                    <i class="bi bi-house-door-fill me-2"></i>Back to Home
+                </a>
 
             <?php else: ?>
-                <div class="icon-box fail-text"><i class="bi bi-x-circle-fill"></i></div>
-                <h2 class="fw-bold mb-3">Payment Failed</h2>
-                <p class="text-muted">Something went wrong with your transaction. If money was deducted, it will be refunded automatically.</p>
-                <a href="certifications.php" class="btn btn-outline-danger mt-3">Try Again</a>
+                
+                <div class="icon-box fail-text">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div>
+                <h2 class="fw-bold mb-2 text-white">Payment Failed</h2>
+                <p class="text-light-muted mb-4 small">Something went wrong with your transaction. If money was deducted, it will be refunded automatically by your bank.</p>
+                
+                <div class="receipt-box mb-4 bg-danger bg-opacity-10 border-danger border-opacity-25 text-start">
+                    <p class="small text-danger mb-0">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i>Please check your internet connection or try a different payment method.
+                    </p>
+                </div>
+
+                <a href="certifications.php" class="btn btn-outline-danger btn-lg w-100 rounded-3 btn-status">
+                    <i class="bi bi-arrow-counterclockwise me-2"></i>Try Again
+                </a>
+                
             <?php endif; ?>
+            
         </div>
     </div>
 </div>

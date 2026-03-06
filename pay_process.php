@@ -46,8 +46,7 @@ $clientId      = $_ENV['CLIENT_ID'];
 $clientVersion = $_ENV['CLIENT_VERSION'];
 $clientSecret  = $_ENV['CLIENT_SECRET'];
 $env           = Env::PRODUCTION; 
-$redirectUrl   = "https://tseedu.com/status.php";
-
+$redirectUrl   = "https://tseedu.com/status.php?tid=".$merchantOrderId;
 $client = StandardCheckoutClient::getInstance($clientId, $clientVersion, $clientSecret, $env); 
 
 // 6. Build Request (Standard V2 Pattern)

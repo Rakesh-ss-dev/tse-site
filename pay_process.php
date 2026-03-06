@@ -19,12 +19,12 @@ $name   = $_POST['name'];
 $stmt = $conn->prepare("SELECT title, amount FROM certifications WHERE id = ?");
 $stmt->bind_param("i", $certId);
 $stmt->execute();
-$res = $stmt->get_result()->fetch_assoc();
+$stmt->bind_result($title, $amount);
 
 if (!$res) { die("Invalid Certification"); }
 
-$amountInRupees = $res['amount'];
-$message = $res['title'];
+$amountInRupees = $amount;
+$message = $title;
 $merchantOrderId = "TSE_" . time() . "_" . bin2hex(random_bytes(2));
 
 // 3. Convert to Paise for PhonePe (CRITICAL)
@@ -57,7 +57,7 @@ $payRequest = StandardCheckoutPayRequestBuilder::builder()
     ->udf4('udf4')
     ->udf5('udf5')
     ->build();
-    
+
 try {
     $payResponse = $client->pay($payRequest);
 

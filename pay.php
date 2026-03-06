@@ -22,9 +22,9 @@ $certId = isset($_GET['cert_id']) ? intval($_GET['cert_id']) : 0;
 $stmt = $conn->prepare("SELECT title, amount FROM certifications WHERE id = ?");
 $stmt->bind_param("i", $certId);
 $stmt->execute();
-$cert = $stmt->get_result()->fetch_assoc();
+$stmt->bind_result($title, $amount);
 
-if (!$cert) {
+if (!$title) {
     die("<div class='container mt-5 alert alert-danger'>Invalid Certification Selected.</div>");
 }
 ?>
@@ -36,11 +36,11 @@ if (!$cert) {
             
             <div class="alert alert-light border mb-4">
                 <div class="d-flex justify-content-between">
-                    <strong>Item:</strong> <span><?php echo htmlspecialchars($cert['title']); ?></span>
+                    <strong>Item:</strong> <span><?php echo htmlspecialchars($title); ?></span>
                 </div>
                 <hr>
                 <div class="d-flex justify-content-between">
-                    <strong>Total:</strong> <span class="text-primary h5">₹<?php echo number_format($cert['amount'], 2); ?></span>
+                    <strong>Total:</strong> <span class="text-primary h5">₹<?php echo number_format($amount, 2); ?></span>
                 </div>
             </div>
 

@@ -12,8 +12,8 @@ use PhonePe\payments\v2\standardCheckout\StandardCheckoutClient;
 use PhonePe\Env;
 
 // 1. Basic Auth Check (Matching your screenshot)
-$expectedUser = "olivia19"; 
-$expectedPass = "olivia123";
+$expectedUser = $_ENV['WEBHOOK_USERNAME']; 
+$expectedPass = $_ENV['WEBHOOK_Password'];
 
 if (!isset($_SERVER['PHP_AUTH_USER']) || 
     ($_SERVER['PHP_AUTH_USER'] !== $expectedUser || $_SERVER['PHP_AUTH_PW'] !== $expectedPass)) {

@@ -21,12 +21,16 @@ $stmt->bind_param("i", $certId);
 $stmt->execute();
 $stmt->bind_result($title, $amount);
 
-if (!$stmt->fetch()) { 
-    die("Invalid Certification Selection."); 
+// Fetch the data into variables
+if ($stmt->fetch()) {
+    $amountInRupees = $amount;
+    $message = $title;
+} else {
+    $stmt->close(); // Close here even on failure
+    die("Invalid Certification");
 }
 
-$amountInRupees = $amount;
-$message = $title;
+
 $merchantOrderId = "TSE_" . time() . "_" . bin2hex(random_bytes(2));
 
 // 3. Convert to Paise for PhonePe (CRITICAL)

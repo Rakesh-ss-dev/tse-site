@@ -29,7 +29,7 @@ if ($stmt->fetch()) {
     $stmt->close(); // Close here even on failure
     die("Invalid Certification");
 }
-
+$stmt->close();
 
 $merchantOrderId = "TSE_" . time() . "_" . bin2hex(random_bytes(2));
 
@@ -40,7 +40,7 @@ $amountInPaise = (int)($amountInRupees * 100);
 $ins = $conn->prepare("INSERT INTO payments (cert_id, customer_name, customer_email, customer_phone, merchant_order_id, amount_paid) VALUES (?, ?, ?, ?, ?, ?)");
 $ins->bind_param("issssd", $certId, $name, $email, $phone, $merchantOrderId, $amountInRupees);
 $ins->execute();
-
+$ins->close();
 // 5. PhonePe Configuration
 $clientId      = $_ENV['CLIENT_ID'];
 $clientVersion = $_ENV['CLIENT_VERSION'];

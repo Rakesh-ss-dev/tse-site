@@ -4,7 +4,7 @@ require_once "vendor/autoload.php";
 
 use PhonePe\payments\v2\standardCheckout\StandardCheckoutClient;
 use PhonePe\common\exceptions\PhonePeException;
-
+error_log("flow entered in webhook");
 // Load Env & DB Connection (Assuming $conn is initialized in a separate file)
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
@@ -12,6 +12,9 @@ require_once "dbconfig.php"; // Ensure $conn is defined here
 $logFile = __DIR__ . '/phonepe_webhook.log';
 function log_debug($message)
 {
+    if (!is_writable(__DIR__)) {
+        error_log("Permissions Error: PHP cannot write to " . __DIR__);
+    }
     global $logFile;
     $timestamp = date('Y-m-d H:i:s');
     file_put_contents($logFile, "[$timestamp] $message\n", FILE_APPEND);

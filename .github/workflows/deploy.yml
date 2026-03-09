@@ -16,7 +16,7 @@ jobs:
         uses: Burnett01/rsync-deployments@7.0.0
         with:
           # ADDED EXCLUSIONS BELOW
-          switches: -avzr --delete --exclude='.env' --exclude='certification/*.pdf'
+          switches: -avzr --delete --exclude='.env' --exclude='certification/*.pdf --exclude='phonepe_webhook.log''
           path: ./ 
           remote_path: /home/learnfundoo/public_html/tse/
           remote_host: ${{ secrets.REMOTE_HOST }}

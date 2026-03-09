@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Receipt - The Skill Enhancers</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f7f6;
+      color: #333333;
+    "
+  >
+    <table
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      style="background-color: #f4f7f6; padding: 40px 15px"
+    >
+      <tr>
+        <td align="center">
+          <table
+            width="100%"
+            max-width="600"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            style="
+              max-width: 600px;
+              background-color: #ffffff;
+              border-radius: 8px;
+              overflow: hidden;
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            "
+          >
+            <tr>
+              <td
+                align="center"
+                style="background-color: #03153b; padding: 30px 20px"
+              >
+                <img
+                  src="https://tseedu.com/images/TSE_LOGO.png"
+                  alt="TSE Logo"
+                  width="100"
+                  style="display: block; max-width: 150px; height: auto"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding: 40px 30px">
+                <h2
+                  style="
+                    margin: 0 0 20px 0;
+                    color: #20c997;
+                    font-size: 24px;
+                    text-align: center;
+                  "
+                >
+                  Payment Successful!
+                </h2>
+                <p
+                  style="
+                    margin: 0 0 20px 0;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #555555;
+                  "
+                >
+                  Dear <strong>{{CustomerName}}</strong>,
+                </p>
+                <p
+                  style="
+                    margin: 0 0 30px 0;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #555555;
+                  "
+                >
+                  Thank you for your purchase. We have successfully received
+                  your payment. Below are the details of your transaction for
+                  your records.
+                </p>
+
+                <table
+                  width="100%"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="
+                    background-color: #f8f9fa;
+                    border: 1px solid #e9ecef;
+                    border-radius: 6px;
+                    padding: 20px;
+                  "
+                >
+                  <tr>
+                    <td
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 14px;
+                        color: #6c757d;
+                      "
+                    >
+                      Order ID:
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 14px;
+                        color: #333333;
+                        font-weight: bold;
+                      "
+                    >
+                      {{OrderID}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 14px;
+                        color: #6c757d;
+                      "
+                    >
+                      Date:
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 14px;
+                        color: #333333;
+                      "
+                    >
+                      {{TransactionDate}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 14px;
+                        color: #6c757d;
+                        border-bottom: 1px solid #dee2e6;
+                      "
+                    >
+                      Item:
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        padding-bottom: 12px;
+                        font-size: 14px;
+                        color: #333333;
+                        border-bottom: 1px solid #dee2e6;
+                      "
+                    >
+                      {{ItemName}}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        padding-top: 12px;
+                        font-size: 16px;
+                        color: #6c757d;
+                        font-weight: bold;
+                      "
+                    >
+                      Amount Paid:
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        padding-top: 12px;
+                        font-size: 18px;
+                        color: #0d6efd;
+                        font-weight: bold;
+                      "
+                    >
+                      ₹{{AmountPaid}}
+                    </td>
+                  </tr>
+                </table>
+                <p
+                  style="
+                    margin-top: 30px;
+                    margin-bottom: 0px;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: #6c757d;
+                    text-align: center;
+                  "
+                >
+                  Need help? Contact our support team at
+                  <a
+                    href="mailto:info@tseedu.com"
+                    style="color: #0d6efd; text-decoration: none"
+                    >info@tseedu.com</a
+                  >
+                  or call us at <strong>+91 93911 33223</strong>.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                align="center"
+                style="background-color: #020d24; padding: 25px 20px"
+              >
+                <p style="margin: 0 0 10px 0; font-size: 12px; color: #adb5bd">
+                  The Skill Enhancers | Raghuma Towers, Hitech City Rd,
+                  Hyderabad, Telangana 500081
+                </p>
+                <p style="margin: 0; font-size: 12px; color: #6c757d">
+                  &copy; 2026 Powered by TSE. All rights reserved.
+                </p>
+                <p style="margin: 10px 0 0 0; font-size: 12px">
+                  <a
+                    href="https://tseedu.com/terms-and-conditions.php"
+                    style="color: #adb5bd; text-decoration: underline"
+                    >Terms</a
+                  >
+                  &nbsp;|&nbsp;
+                  <a
+                    href="https://tseedu.com/privacy-n-security-policy.php"
+                    style="color: #adb5bd; text-decoration: underline"
+                    >Privacy Policy</a
+                  >
+                  &nbsp;|&nbsp;
+                  <a
+                    href="https://tseedu.com/refund-policy.php"
+                    style="color: #adb5bd; text-decoration: underline"
+                    >Refunds</a
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

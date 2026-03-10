@@ -110,6 +110,8 @@
         if ($stmt->fetch()) {
             $message = $boundTitle;
             $amountInRupees = $boundAmount;
+            $taxInRupees = $boundAmount * 0.18;
+            $totalPayable = $amountInRupees + $taxInRupees;
         } else {
             die("<div class='container mt-5 alert alert-danger border-danger bg-danger bg-opacity-10 text-white'>Error: Certification not found.</div>");
         }
@@ -137,8 +139,18 @@
                     </div>
                     <hr>
                     <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-light-muted">Certification cost:</span>
+                        <span class="text-info mb-0 fw-bold">₹ <?php echo number_format($amountInRupees, 2); ?></span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-light-muted">Tax(18%):</span>
+                        <span class="text-info mb-0 fw-bold">₹
+                            <?php echo number_format($taxInRupees, 2); ?>
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
                         <span class="text-light-muted">Total Payable:</span>
-                        <span class="text-info h4 mb-0 fw-bold">₹<?php echo number_format($amountInRupees, 2); ?></span>
+                        <span class="text-info h4 mb-0 fw-bold">₹<?php echo number_format($totalPayable, 2); ?></span>
                     </div>
                 </div>
 

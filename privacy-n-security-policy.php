@@ -248,9 +248,13 @@
                                     </div>
 
                                 </div>
-
-                                <a href="TSE_ISMS_IA_Certificate.pdf" class="tse-btn">View Certificate</a>
                             </div>
+
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a target="_blank" href="TSE_ISMS_IA_Certificate.pdf"
+                                class="tse-btn text-center text-decoration-none">View
+                                Certificate</a>
                         </div>
                     </div>
                 </div>

@@ -206,27 +206,42 @@
                                 <h4 class="fw-bold text-primary mb-3"><i class="bi bi-people-fill me-2"></i>Leadership &
                                     Accountability</h4>
                                 <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="d-flex">
-                                            <i class="bi bi-person-circle fs-4 text-primary me-3"></i>
-                                            <div>
-                                                <strong class="text-white">CEO & MR Heeresh Dubey</strong><br>
-                                                <span class="small text-light-muted">Strategic oversight &
-                                                    governance</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="d-flex">
                                             <i class="bi bi-shield-check fs-4 text-primary me-3"></i>
                                             <div>
-                                                <strong class="text-white">CISO Anantha Bhaskar</strong><br>
+                                                <strong class="text-white"><span class="fw-bold text-info">CEO,</span> K
+                                                    Srinivas Reddy</strong><br>
+                                                <a href="mailto:kumbam.srinivas@tseedu.com"
+                                                    class="small text-info text-decoration-none">kumbam.srinivas@tseedu.com</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="d-flex">
+                                            <i class="bi bi-person-circle fs-4 text-primary me-3"></i>
+                                            <div>
+                                                <strong class="text-white"><span class="fw-bold text-info">MR,</span>
+                                                    Heeresh Dubey</strong><br>
+                                                <a href="mailto:heeresh.dubey@tseedu.com"
+                                                    class="small text-info text-decoration-none">heeresh.dubey@tseedu.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="d-flex">
+                                            <i class="bi bi-shield-check fs-4 text-primary me-3"></i>
+                                            <div>
+                                                <strong class="text-white"><span class="fw-bold text-info">CISO,</span>
+                                                    Anantha
+                                                    Bhaskar</strong><br>
                                                 <a href="mailto:anantha.bhaskar@tseedu.com"
                                                     class="small text-info text-decoration-none">anantha.bhaskar@tseedu.com</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="d-flex">
                                             <i class="bi bi-headset fs-4 text-primary me-3"></i>
                                             <div>
@@ -236,7 +251,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="d-flex">
                                             <i class="bi bi-globe fs-4 text-primary me-3"></i>
                                             <div>

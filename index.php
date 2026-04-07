@@ -651,7 +651,7 @@
           <div class="col-md-10 mx-auto col-11">
             <div class="row">
               <div class="col-md-5 my-auto">
-                <h1 class="text-white text-center">Industries</h1>
+                <h2 class="text-white text-center h1">Industries</h2>
               </div>
               <div class="col-md-7 border-none border-md-start">
                 <div class="d-flex flex-column flex-md-row justify-content-around">

@@ -390,7 +390,7 @@
           <div class="col-md-10 mx-auto col-11">
             <div class="row gap-3 gap-md-0">
               <div class="col-md-5">
-                <img src="images/tse-graphic.png" width="100%" alt="TSE Graphics" />
+                <img src="images/tse-graphic.webp" width="100%" alt="TSE Graphics" />
               </div>
               <div class="col-md-6 ms-auto my-auto">
                 <p class="text-white tse-dark-p">
@@ -436,7 +436,7 @@
                 </div>
               </div>
               <div class="col-md-4 ms-md-auto col-9 mx-auto mb-3">
-                <img src="images/tse_legacy.png" width="100%" alt="TSE Legacy" />
+                <img src="images/tse_legacy.webp" width="100%" alt="TSE Legacy" />
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@
     <div class="row justify-content-stretch">
       <div class="col-md-4">
         <a href="/" aria-label="Home Page">
-          <img src="images/TSEFooterLogo.png" width="100%" alt="Footer Logo" />
+          <img src="images/TSEFooterLogo.webp" width="100%" alt="Footer Logo" />
         </a>
       </div>
       <div class="col-md-8 my-md-auto my-4">

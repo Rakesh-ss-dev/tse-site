@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>The Skill Enhancers</title>
+    <?php include('metaTags.php'); ?>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -226,7 +226,7 @@
                                                 Learning Objective)</li>
                                             <li class="my-3">Ecosystem (Logistics, Infrastructure, Delivery Tools)</li>
                                             <li class="my-3">Technology (Hardware, Software, Setup)</li>
-                                            <li class="my-3">Trainer (Fitment to Ojectives, In-Class, Participant
+                                            <li class="my-3">Trainer (Fitment to Objectives, In-Class, Participant
                                                 Engagement, Effectiveness)</li>
                                         </ul>
                                     </div>

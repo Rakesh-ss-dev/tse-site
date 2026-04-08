@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>The Skill Enhancers</title>
+    <?php include('metaTags.php'); ?>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -15,90 +15,97 @@
     <?php include('header.php') ?>
     <main>
         <div class="tse-content-wrapper">
-    <div class="container-fluid page-banner" style="background: linear-gradient(135deg, #1c103f 0%, #03153b 100%); border-bottom: 1px solid #ffffff1a;">
-        <div class="container text-center text-white">
-            <h1 class="display-4 fw-bold">Certification Pricing</h1>
-            <p class="lead text-light-muted">Invest in your future with our globally recognized ISO certification exams.</p>
+            <div class="container-fluid page-banner"
+                style="background: linear-gradient(135deg, #1c103f 0%, #03153b 100%); border-bottom: 1px solid #ffffff1a;">
+                <div class="container text-center text-white">
+                    <h1 class="display-4 fw-bold">Certification Pricing</h1>
+                    <p class="lead text-light-muted">Invest in your future with our globally recognized ISO
+                        certification exams.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="pricing-card">
+                            <div class="mb-3">
+                                <i class="bi bi-shield-check fs-1 text-primary"></i>
+                            </div>
+                            <h3 class="cert-title">ISO 27001<br><span class="text-primary">Lead Implementor</span></h3>
+                            <div class="price-inr">$213 <span>USD</span></div>
+                            <div class="price-usd">₹19,170 <span>INR</span></div>
+                            <div class="mt-auto">
+                                <a href="pay.php?cert_id=1" class="btn btn-outline-primary w-100">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="pricing-card premium">
+                            <div class="mb-3">
+                                <i class="bi bi-award-fill fs-1 text-warning"></i>
+                            </div>
+                            <h3 class="cert-title">ISO 27001<br><span class="text-warning">Lead Auditor</span></h3>
+                            <div class="price-inr">$281 <span>USD</span></div>
+                            <div class="price-usd">₹25,290 <span>INR</span></div>
+                            <div class="mt-auto">
+                                <a href="pay.php?cert_id=2" class="btn btn-outline-warning w-100">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="pricing-card">
+                            <div class="mb-3">
+                                <i class="bi bi-cpu-fill fs-1 text-primary"></i>
+                            </div>
+                            <h3 class="cert-title">ISO 42001<br><span class="text-primary">Lead Implementor</span></h3>
+                            <div class="price-inr">$328 <span>USD</span></div>
+                            <div class="price-usd">₹29,520 <span>INR</span></div>
+                            <div class="mt-auto">
+                                <a href="pay.php?cert_id=3" class="btn btn-outline-primary w-100">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="pricing-card premium">
+                            <div class="mb-3">
+                                <i class="bi bi-patch-check-fill fs-1 text-warning"></i>
+                            </div>
+                            <h3 class="cert-title">ISO 42001<br><span class="text-warning">Lead Auditor</span></h3>
+                            <div class="price-inr">$362 <span>USD</span></div>
+                            <div class="price-usd">₹32,580 <span>INR</span></div>
+                            <div class="mt-auto">
+                                <a href="pay.php?cert_id=4" class="btn btn-outline-warning w-100">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="pricing-notes shadow-sm">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-info-circle-fill fs-4 text-info me-2"></i>
+                                <h5 class="text-white mb-0 fw-bold">Important Pricing Terms</h5>
+                            </div>
+                            <ul>
+                                <li><strong>Taxes Additional:</strong> Please note that all costs listed above are
+                                    exclusive of taxes. A standard <strong>GST @ 18%</strong> will be applicable
+                                    additionally.</li>
+                                <li><strong>OEM Variations:</strong> Prices proposed are subject to variation based on
+                                    the Original Equipment Manufacturer (OEM).</li>
+                                <li><strong>Periodic Updates:</strong> We will update the pricing periodically in case
+                                    of any changes (upward or downward) from the governing bodies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-
-    <div class="container">
-        <div class="row g-4 justify-content-center">
-            
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-card">
-                    <div class="mb-3">
-                        <i class="bi bi-shield-check fs-1 text-primary"></i>
-                    </div>
-                    <h3 class="cert-title">ISO 27001<br><span class="text-primary">Lead Implementor</span></h3>
-                    <div class="price-inr">$213 <span>USD</span></div>
-                    <div class="price-usd">₹19,170 <span>INR</span></div>
-                    <div class="mt-auto">
-                        <a href="pay.php?cert_id=1" class="btn btn-outline-primary w-100">Enroll Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-card premium">
-                    <div class="mb-3">
-                        <i class="bi bi-award-fill fs-1 text-warning"></i>
-                    </div>
-                    <h3 class="cert-title">ISO 27001<br><span class="text-warning">Lead Auditor</span></h3>
-                    <div class="price-inr">$281 <span>USD</span></div>
-                    <div class="price-usd">₹25,290 <span>INR</span></div>
-                    <div class="mt-auto">
-                        <a href="pay.php?cert_id=2" class="btn btn-outline-warning w-100">Enroll Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-card">
-                    <div class="mb-3">
-                        <i class="bi bi-cpu-fill fs-1 text-primary"></i>
-                    </div>
-                    <h3 class="cert-title">ISO 42001<br><span class="text-primary">Lead Implementor</span></h3>
-                    <div class="price-inr">$328 <span>USD</span></div>
-                    <div class="price-usd">₹29,520 <span>INR</span></div>
-                    <div class="mt-auto">
-                        <a href="pay.php?cert_id=3" class="btn btn-outline-primary w-100">Enroll Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-card premium">
-                    <div class="mb-3">
-                        <i class="bi bi-patch-check-fill fs-1 text-warning"></i>
-                    </div>
-                    <h3 class="cert-title">ISO 42001<br><span class="text-warning">Lead Auditor</span></h3>
-                    <div class="price-inr">$362 <span>USD</span></div>
-                    <div class="price-usd">₹32,580 <span>INR</span></div>
-                    <div class="mt-auto">
-                        <a href="pay.php?cert_id=4" class="btn btn-outline-warning w-100">Enroll Now</a>
-                    </div>
-                </div>
-            </div>
-
-        </div> <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="pricing-notes shadow-sm">
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="bi bi-info-circle-fill fs-4 text-info me-2"></i>
-                        <h5 class="text-white mb-0 fw-bold">Important Pricing Terms</h5>
-                    </div>
-                    <ul>
-                        <li><strong>Taxes Additional:</strong> Please note that all costs listed above are exclusive of taxes. A standard <strong>GST @ 18%</strong> will be applicable additionally.</li>
-                        <li><strong>OEM Variations:</strong> Prices proposed are subject to variation based on the Original Equipment Manufacturer (OEM).</li>
-                        <li><strong>Periodic Updates:</strong> We will update the pricing periodically in case of any changes (upward or downward) from the governing bodies.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
     </main>
     <?php include('footer.php') ?>
     <!-- Bootstrap JavaScript Libraries -->

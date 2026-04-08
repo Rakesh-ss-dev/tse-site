@@ -10,7 +10,6 @@
 
   <!-- Bootstrap CSS v5.2.1 -->
   <?php include('styles.php') ?>
-  <link rel="stylesheet" href="css/word-cloud.css">
 </head>
 
 <body class="bg-dark-blue">

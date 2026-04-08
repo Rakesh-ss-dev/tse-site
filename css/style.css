@@ -41,7 +41,7 @@ h6 {
   height: calc(73vh + 160px);
   background-image:
     linear-gradient(to right, rgba(3, 21, 59, 0.85), rgba(3, 21, 59, 0.85)),
-    url("../images/home-banner.jpg");
+    url("../images/home-banner.webp");
   background-size: cover;
   top: -160px;
   width: 100%;

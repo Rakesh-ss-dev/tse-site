@@ -152,7 +152,7 @@
                 what's next.</p>
             </div>
             <div class="col-md-5 mx-auto">
-              <img src="images/word-cloud-tse.jpg" width="100%" alt="">
+              <img src="images/word-cloud-tse.webp" width="100%" alt="">
             </div>
           </div>
         </div>
@@ -234,7 +234,7 @@
                     </div>
                     <div class="col-md-5 my-auto">
                       <div class="position-relative">
-                        <img src="images/industry-trainers.png" width="100%" alt="" />
+                        <img src="images/industry-trainers.webp" width="100%" alt="" />
                         <div class="tse-tab-content-p">
                           <p class="m-0">
                             Partner with us to equip your teams with cutting-edge skills and strategic knowledge for

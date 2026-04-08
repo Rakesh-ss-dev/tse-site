@@ -3,7 +3,7 @@
 <header>
   <nav id="header" class="navbar navbar-expand-sm navbar-dark">
     <div class="container col-md-10 col-11">
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="/" aria-label="Home Page">
         <img id="logo" src="images/logo.svg" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
@@ -15,19 +15,20 @@
         <div class="ms-auto mt-2 mt-lg-0 d-flex flex-column">
           <ul id="tse-nav" class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="about-us.php">ABOUT US</a>
+              <a class="nav-link text-white" href="about-us.php" aria-label="Read more about Us">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="methodologies.php">METHODOLOGIES</a>
+              <a class="nav-link text-white" href="methodologies.php" aria-label="Methodologies">METHODOLOGIES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="academic_alliance.php">ACADEMIC ALLIANCE</a>
+              <a class="nav-link text-white" href="academic_alliance.php" aria-label="Academic Alliance">ACADEMIC
+                ALLIANCE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="contact.php">CONTACT US</a>
+              <a class="nav-link text-white" href="contact.php" aria-label="Contact Us">CONTACT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="certifications.php">CERTIFICATIONS</a>
+              <a class="nav-link text-white" href="certifications.php" aria-label="certifications">CERTIFICATIONS</a>
             </li>
           </ul>
         </div>
@@ -44,7 +45,7 @@
       $result = mysqli_query($conn, $sql);
       while ($row = mysqli_fetch_assoc($result)) { ?>
         <div class="item px-3 mb-0">
-          <a href="competency.php?id=<?php echo $row['category_id'] ?>"
+          <a href="competency.php?id=<?php echo $row['category_id'] ?>" aria-label="<?php echo $row['title'] ?>"
             class="text-center text-decoration-none m-0 text-nowrap"><?php echo $row['title'] ?></a>
         </div>
       <?php }
@@ -59,7 +60,7 @@
               $moreRes = $conn->query($more);
               while ($moreRow = $moreRes->fetch_assoc()) { ?>
                 <div class="col-md-5 mx-auto py-1">
-                  <a class="dropdown-item text-wrap"
+                  <a class="dropdown-item text-wrap" aria-label="<?php echo $moreRow['title'] ?>"
                     href="competency.php?id=<?php echo $moreRow['category_id'] ?>"><?php echo $moreRow['title'] ?></a>
                 </div>
               <?php }

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row justify-content-stretch">
       <div class="col-md-4">
-        <a href="/">
+        <a href="/" aria-label="Home Page">
           <img src="images/TSEFooterLogo.png" width="100%" alt="Footer Logo" />
         </a>
       </div>
@@ -11,11 +11,15 @@
           <div class="footer-links-container">
             <ul
               class="d-flex flex-column flex-md-row text-white list-unstyled justify-content-between footer-links gap-3">
-              <li><a class="text-white text-decoration-none fw-bold" href="about-us.php">ABOUT US</a></li>
-              <li><a class="text-white text-decoration-none fw-bold" href="methodologies.php">METHODOLOGIES</a></li>
-              <li><a class="text-white text-decoration-none fw-bold" href="academic_alliance.php">ACADEMIC ALLIANCE</a>
+              <li><a class="text-white text-decoration-none fw-bold" href="about-us.php" aria-label="About us">ABOUT
+                  US</a></li>
+              <li><a class="text-white text-decoration-none fw-bold" href="methodologies.php"
+                  aria-label="methodologies">METHODOLOGIES</a></li>
+              <li><a class="text-white text-decoration-none fw-bold" href="academic_alliance.php"
+                  aria-label="Academic Alliance">ACADEMIC ALLIANCE</a>
               </li>
-              <li><a class="text-white text-decoration-none fw-bold" href="contact.php">CONTACT US</a></li>
+              <li><a class="text-white text-decoration-none fw-bold" href="contact.php" aria-label="Contact Us">CONTACT
+                  US</a></li>
             </ul>
           </div>
           <div class="address-social-links">
@@ -29,22 +33,24 @@
               </div>
               <div class="col-md-6 mb-3 my-auto">
                 <div class="d-flex gap-3 justify-content-start justify-content-md-end">
-                  <a href="https://www.facebook.com/tseedu/?ref=py_c" target="_blank"><img
+                  <a href="https://www.facebook.com/tseedu/?ref=py_c" target="_blank" aria-label="Facebook"><img
                       src="images/facebook-icon.svg" width="40" alt="Facebook Icon" /></a>
-                  <a href="https://twitter.com/tseedu?lang=en" target="_blank"><img src="images/x-icon.svg" width="40"
-                      alt="Twitter Icon" /></a>
-                  <a href="https://www.linkedin.com/company/tseedu/" target="_blank"><img src="images/linkedin-icon.svg"
-                      width="40" alt="Linkedin Icon" /></a>
-                  <a href="https://wa.link/bax02e" target="_blank"><img src="images/whatsapp-icon.svg" width="40"
-                      alt="Whatsapp Icon" /></a>
+                  <a href="https://twitter.com/tseedu?lang=en" target="_blank" aria-label="Twitter Icon"><img
+                      src="images/x-icon.svg" width="40" alt="Twitter Icon" /></a>
+                  <a href="https://www.linkedin.com/company/tseedu/" target="_blank" aria-label="Linkedin Icon"><img
+                      src="images/linkedin-icon.svg" width="40" alt="Linkedin Icon" /></a>
+                  <a href="https://wa.link/bax02e" target="_blank" aria-label="Whatsapp Icon"><img
+                      src="images/whatsapp-icon.svg" width="40" alt="Whatsapp Icon" /></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="contact-info-container">
             <div class="d-flex justify-content-between flex-column flex-md-row">
-              <a href="tel:+91 93911 33223" class="text-white text-decoration-none">Call: +91 93911 33223</a>
-              <a href="mailto:info@tseedu.com" class="text-white text-decoration-none">Email : info@tseedu.com</a>
+              <a href="tel:+91 93911 33223" class="text-white text-decoration-none" aria-label="Mobile Number">Call: +91
+                93911 33223</a>
+              <a href="mailto:info@tseedu.com" class="text-white text-decoration-none" aria-label="Email">Email :
+                info@tseedu.com</a>
             </div>
           </div>
         </div>
@@ -56,11 +62,11 @@
       <div class="row align-items-center">
         <div class="col-md-7 mb-3 mb-md-0">
           <div class="bottom-links d-flex flex-wrap gap-3 justify-content-center justify-content-md-start">
-            <a href="privacy-n-security-policy.php">Privacy & Security</a>
+            <a href="privacy-n-security-policy.php" aria-label="Privacy and Security Policy">Privacy & Security</a>
             <span class="text-muted d-none d-md-inline">|</span>
-            <a href="refund-policy.php">Refund Policy</a>
+            <a href="refund-policy.php" aria-label="Refund Policy">Refund Policy</a>
             <span class="text-muted d-none d-md-inline">|</span>
-            <a href="terms-and-conditions.php">Terms & Conditions</a>
+            <a href="terms-and-conditions.php" aria-label="Terms and Conditions">Terms & Conditions</a>
           </div>
         </div>
 

@@ -39,7 +39,8 @@
                                 <img src="images/call_icon.svg" class="mb-2" width="30" alt="">
                                 <h5 class="text-white">Phone:</h5>
                                 <p class="text-white mb-0">040-40203358, 040-40273355</p>
-                                <a href="tel:+91 93911 33223" class="text-white text-decoration-none mb-3">Call: +91
+                                <a href="tel:+91 93911 33223" aria-label="mobile Number"
+                                    class="text-white text-decoration-none mb-3">Call: +91
                                     93911 33223</a>
                             </div>
                             <div>
@@ -94,20 +95,22 @@
         <div class="row">
             <div class="col-md-4 mx-auto">
                 <div class="d-flex justify-content-around">
-                    <a href="https://www.facebook.com/tseedu/?ref=py_c" target="_blank"><img
+                    <a href="https://www.facebook.com/tseedu/?ref=py_c" target="_blank" aria-label="Facebook"><img
                             src="images/facebook-icon.svg" width="40" alt="" /></a>
-                    <a href="https://twitter.com/tseedu?lang=en" target="_blank"><img src="images/x-icon.svg" width="40"
-                            alt="" /></a>
-                    <a href="https://www.linkedin.com/company/tseedu/" target="_blank"><img
+                    <a href="https://twitter.com/tseedu?lang=en" target="_blank" aria-label="twitter"><img
+                            src="images/x-icon.svg" width="40" alt="" /></a>
+                    <a href="https://www.linkedin.com/company/tseedu/" target="_blank" aria-label="linkedin"><img
                             src="images/linkedin-icon.svg" width="40" alt="" /></a>
-                    <a href="https://wa.link/bax02e" target="_blank"><img src="images/whatsapp-icon.svg" width="40"
-                            alt="" /></a>
+                    <a href="https://wa.link/bax02e" target="_blank" aria-label="Whatsapp"><img
+                            src="images/whatsapp-icon.svg" width="40" alt="" /></a>
                 </div>
                 <p class="text-white text-center mt-3 mb-3">Tseedu | &copy 2026 Powered by TSE, All rights reserved</p>
 
                 <div class="d-flex justify-content-between flex-column flex-md-row">
-                    <a href="tel:+91 93911 33223" class="text-white text-decoration-none">Call: +91 93911 33223</a>
-                    <a href="mailto:info@tseedu.com" class="text-white text-decoration-none">Email : info@tseedu.com</a>
+                    <a href="tel:+91 93911 33223" aria-label="Mobile Number"
+                        class="text-white text-decoration-none">Call: +91 93911 33223</a>
+                    <a href="mailto:info@tseedu.com" aria-label="Email" class="text-white text-decoration-none">Email :
+                        info@tseedu.com</a>
                 </div>
             </div>
         </div>

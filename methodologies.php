@@ -36,8 +36,10 @@
                                             - aligning talent growth with business goals for impactful, long-term
                                             capability development.</p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/ct-dev.svg" alt="">
-                                            <img class="hover" src="images/ct-dev-black.svg" alt="">
+                                            <img class="normal" src="images/ct-dev.svg"
+                                                alt="Consultative Talent Development">
+                                            <img class="hover" src="images/ct-dev-black.svg"
+                                                alt="Consultative Talent Development Black">
                                         </div>
                                     </div>
                                 </div>
@@ -48,8 +50,9 @@
                                             industry-aligned training, ensuring a smooth transition from campus to
                                             corporate.</p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/gh-ready.svg" alt="">
-                                            <img class="hover" src="images/gh-ready-black.svg" alt="">
+                                            <img class="normal" src="images/gh-ready.svg" alt="Graduate Hire Readiness">
+                                            <img class="hover" src="images/gh-ready-black.svg"
+                                                alt="Graduate Hire Readiness Black">
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +62,10 @@
                                         <p class="m-0 small">Empowering existing teams with the latest technologies and
                                             tools to boost performance, productivity, and future readiness.</p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/w-upskilling.svg" alt="">
-                                            <img class="hover" src="images/w-upskilling-black.svg" alt="">
+                                            <img class="normal" src="images/w-upskilling.svg"
+                                                alt="Workforce Upskilling">
+                                            <img class="hover" src="images/w-upskilling-black.svg"
+                                                alt="Workforce Upskilling Black">
                                         </div>
                                     </div>
                                 </div>
@@ -70,8 +75,10 @@
                                         <p class="m-0 small">Flexible, self-paced digital modules designed to deliver
                                             knowledge anytime, anywhere — scalable, engaging, and effective.</p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/digital-learning.svg" alt="">
-                                            <img class="hover" src="images/digital-learning-black.svg" alt="">
+                                            <img class="normal" src="images/digital-learning.svg"
+                                                alt="Digital Learning">
+                                            <img class="hover" src="images/digital-learning-black.svg"
+                                                alt="Digital Learning Black">
                                         </div>
                                     </div>
                                 </div>
@@ -83,8 +90,9 @@
                                             journeys — with performance analytics, certification, and progress
                                             reporting.</p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/lms.svg" alt="">
-                                            <img class="hover" src="images/lms-black.svg" alt="">
+                                            <img class="normal" src="images/lms.svg" alt="Learning Management System">
+                                            <img class="hover" src="images/lms-black.svg"
+                                                alt="Learning Management System Black">
                                         </div>
                                     </div>
                                 </div>
@@ -92,10 +100,12 @@
                                     <div class="tse-methodologies-card">
                                         <h5>Learning content <br class="d-none d-md-block"> design</h5>
                                         <p class="m-0 small">Instructional content designed for real-world relevance,
-                                            aligned with learner needs, business goals, and evolving industry trends.</p>
+                                            aligned with learner needs, business goals, and evolving industry trends.
+                                        </p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/lcd.svg" alt="">
-                                            <img class="hover" src="images/lcd-black.svg" alt="">
+                                            <img class="normal" src="images/lcd.svg" alt="Learning content design">
+                                            <img class="hover" src="images/lcd-black.svg"
+                                                alt="Learning content design Black">
                                         </div>
                                     </div>
                                 </div>
@@ -103,10 +113,12 @@
                                     <div class="tse-methodologies-card">
                                         <h5>Learning<br class="d-none d-md-block"> Infrastructure</h5>
                                         <p class="m-0 small">Robust, scalable infrastructure that supports hybrid
-                                            learning formats with seamless access, security, and technology integration.</p>
+                                            learning formats with seamless access, security, and technology integration.
+                                        </p>
                                         <div class="tse-methodologies-icon">
-                                            <img class="normal" src="images/l-infra.svg" alt="">
-                                            <img class="hover" src="images/l-infra-black.svg" alt="">
+                                            <img class="normal" src="images/l-infra.svg" alt="Learning Infrastructure">
+                                            <img class="hover" src="images/l-infra-black.svg"
+                                                alt="Learning Infrastructure Black">
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +232,7 @@
                             <div class="col-md-4 my-3 h-100 d-flex flex-column justify-content-around py-5">
                                 <div>
                                     <div class="d-flex align-items-center mb-3 gap-2">
-                                        <img src="images/analyse-m.svg" alt="">
+                                        <img src="images/analyse-m.svg" alt="Methodologies | Analyze">
                                         <h4 class="text-white">Analyze</h4>
                                     </div>
                                     <p class="text-white mb-3">We analyze the training needs before formulating
@@ -239,7 +251,7 @@
                                     <div class="col-md-6 d-flex flex-column justify-content-around py-5">
                                         <div>
                                             <div class="d-flex align-items-center mb-3 gap-2">
-                                                <img src="images/create-m.svg" alt="">
+                                                <img src="images/create-m.svg" alt="Methodologies | Create">
                                                 <h4 class="text-white">Create</h4>
                                             </div>
                                             <p class="text-white mb-3">Learning solutions are created keeping in mind
@@ -257,7 +269,7 @@
                                         class="col-md-6 d-flex flex-column justify-content-around bl-light-blue py-5 py-md-0 my-md-5 my-0">
                                         <div>
                                             <div class="d-flex align-items-center mb-3 gap-2">
-                                                <img src="images/deploy-m.svg" alt="">
+                                                <img src="images/deploy-m.svg" alt="Methodologies | Deploy">
                                                 <h4 class="text-white">Deploy</h4>
                                             </div>
 

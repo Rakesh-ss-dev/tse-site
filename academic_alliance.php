@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="row gap-3 gap-md-0">
                     <div class="col-md-6 ms-auto">
-                        <h3 class="text-light-blue">TSE's Corporate Resposibility</h3>
+                        <h3 class="text-light-blue">TSE's Corporate Responsibility</h3>
                         <p class="text-white">Skill Sigma is not just a training vertical - it's a mission. A mission to
                             empower India's youth with the right skills, mindsets, and direction to thrive in the real
                             world.</p>
@@ -39,7 +39,7 @@
                     <div class="col-md-6 my-auto me-auto">
                         <div class="row">
                             <div class="col-7 mx-auto">
-                                <img src="images/skillsigmawhite.svg" width="100%" alt="">
+                                <img src="images/skillsigmawhite.svg" width="100%" alt="Skill Sigma Logo">
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
         </section>
         <section class="my-75">
             <div class="container">
-                <img src="images/academic.jpg" width="100%" alt="">
+                <img src="images/academic.jpg" width="100%" alt="Academic Alliance">
                 <h5 class="text-white text-center mt-4">
                     We work hand-in-hand with colleges and universities, delivering <br class="d-none d-md-block">
                     industry-aligned, hands-on training
@@ -62,26 +62,29 @@
                 <div class="row align-items-stretch">
                     <div class="col-md-6">
                         <div class="card bg-light-blue p-5 pb-0 tse-tabs-section mb-3">
-                            
+
                             <div class="row">
-                            <h4 class="text-white mb-4">Skill Development Programs</h4>
+                                <h4 class="text-white mb-4">Skill Development Programs</h4>
                                 <div class="col-md-6">
-                                <p class="text-white">This isn't generic training. <br> Our programs are built with real project scenarios, real tools, and real expectations - so students don't just know the subject, they can do the job.</p>
-                                <p class="text-white mb-0">From foundational skills to specialized tech stacks, every module is crafted with industry outcomes in mind.</p>
+                                    <p class="text-white">This isn't generic training. <br> Our programs are built with
+                                        real project scenarios, real tools, and real expectations - so students don't
+                                        just know the subject, they can do the job.</p>
+                                    <p class="text-white mb-0">From foundational skills to specialized tech stacks,
+                                        every module is crafted with industry outcomes in mind.</p>
                                 </div>
                                 <div class="col-md-6 mt-4 position-relative bottom-0">
-                                    <img src="images/aa_girl.png" width="100%" alt="">
+                                    <img src="images/aa_girl.png" width="100%" alt="Skill Development Programs">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 my-auto">
                         <div class="card p-5 tse-tabs-section mb-3">
-                            <h4 class="text-white mb-4">Company Specific Tranings</h4>
+                            <h4 class="text-white mb-4">Company Specific Trainings</h4>
                             <p class="text-white mb-0">For organizations, Skill Sigma becomes a reliable source of
                                 skilled, deployment-ready talent.<br>No need for long onboarding or bridging programs -
                                 our trained students can be productive from Day 1.
-                            I    t's faster hiring, smoother transitions, and better project success.</p>
+                                I t's faster hiring, smoother transitions, and better project success.</p>
                         </div>
                         <div class="card p-5  tse-tabs-section">
                             <h4 class="text-white mb-4">A Responsibility We Take Seriously</h4>
@@ -97,7 +100,8 @@
         </section>
         <section class="my-5">
             <h4 class="text-center text-white">
-            visit <a href="https://www.skillsigma.com" class="text-light-blue text-decoration-none" target="_blank">www.skillsigma.com</a> for more information</h4>
+                visit <a href="https://www.skillsigma.com" class="text-light-blue text-decoration-none"
+                    target="_blank">www.skillsigma.com</a> for more information</h4>
         </section>
     </main>
     <?php include('footer.php') ?>

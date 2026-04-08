@@ -100,16 +100,17 @@
                                     <h5>Generative & Agentic AI</h5>
                                     <p><small>Train. Manage. Optimize. Scale.</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container">
+                                        <div class="competency-arrow-container">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 1">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 1">
                                         </div>
-                                        <div class="compentency-icon-container">
-                                            <img class="competency-icon" src="images/genaiicon.svg" height="100px" alt="">
+                                        <div class="competency-icon-container">
+                                            <img class="competency-icon" src="images/genaiicon.svg" height="100px"
+                                                alt="Generative AI Icon">
                                             <img class="competency-icon-white" src="images/genaiiconwht.svg" height="100px"
-                                                alt="">
+                                                alt="Generative AI White Icon">
                                         </div>
                                     </div>
                                 </div>
@@ -123,16 +124,17 @@
                                     <h5>Cloud Computing</h5>
                                     <p><small>Learn. Deploy. Scale. Excel</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container">
+                                        <div class="competency-arrow-container">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 2">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 2">
                                         </div>
-                                        <div class="compentency-icon-container">
-                                            <img class="competency-icon" src="images/cloud-blue.svg" height="100px" alt="">
+                                        <div class="competency-icon-container">
+                                            <img class="competency-icon" src="images/cloud-blue.svg" height="100px"
+                                                alt="Cloud Icon">
                                             <img class="competency-icon-white" src="images/cloud-white.svg" height="100px"
-                                                alt="">
+                                                alt="Cloud White Icon">
                                         </div>
                                     </div>
                                 </div>
@@ -146,23 +148,23 @@
                                     <h5>Data Science & Analytics</h5>
                                     <p><small>Code. Build. Solve. Grow</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container">
+                                        <div class="competency-arrow-container">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 3">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 3">
                                         </div>
-                                        <div class="compentency-icon-container">
+                                        <div class="competency-icon-container">
                                             <img class="competency-icon" src="images/datascienceiconblu.svg" height="100px"
-                                                alt="">
+                                                alt="Data Science Icon">
                                             <img class="competency-icon-white" src="images/datascienceiconwht.svg"
-                                                height="100px" alt="">
+                                                height="100px" alt="Data Science White Icon">
                                         </div>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <?php }
+                    <?php }
                     if ($catRow['title'] !== 'Programming') { ?>
                         <div class="col-md-4 p-4">
                             <a class="text-decoration-none" href="competency.php?id=18">
@@ -170,23 +172,23 @@
                                     <h5>Programming</h5>
                                     <p><small>Code. Build. Solve. Grow</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container">
+                                        <div class="competency-arrow-container">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 4">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 4">
                                         </div>
-                                        <div class="compentency-icon-container">
+                                        <div class="competency-icon-container">
                                             <img class="competency-icon" src="images/programingiconblu.svg" height="100px"
-                                                alt="">
+                                                alt="Programming Icon">
                                             <img class="competency-icon-white" src="images/programingiconwht.svg"
-                                                height="100px" alt="">
+                                                height="100px" alt="Programming White Icon">
                                         </div>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <?php }
+                    <?php }
                     if ($catRow['title'] !== 'Databases') { ?>
                         <div class="col-md-4 p-4">
                             <a class="text-decoration-none" href="competency.php?id=8">
@@ -194,17 +196,17 @@
                                     <h5>Databases</h5>
                                     <p><small>Train. Manage. Optimize. Scale.</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container">
+                                        <div class="competency-arrow-container">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 5">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 5">
                                         </div>
-                                        <div class="compentency-icon-container">
+                                        <div class="competency-icon-container">
                                             <img class="competency-icon" src="images/databaseiconblu.svg" height="100px"
-                                                alt="">
+                                                alt="Database Icon">
                                             <img class="competency-icon-white" src="images/databaseiconwht.svg"
-                                                height="100px" alt="">
+                                                height="100px" alt="Database White Icon">
                                         </div>
                                     </div>
                                 </div>
@@ -218,17 +220,17 @@
                                     <h5>Frontend UI Development</h5>
                                     <p><small>Design. Build. Polish. Launch.</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container">
+                                        <div class="competency-arrow-container">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 6">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 6">
                                         </div>
-                                        <div class="compentency-icon-container">
+                                        <div class="competency-icon-container">
                                             <img class="competency-icon" src="images/cybericonblu.svg" height="100px"
-                                                alt="">
+                                                alt="Cyber Icon">
                                             <img class="competency-icon-white" src="images/cybericonwht.svg" height="100px"
-                                                alt="">
+                                                alt="Cyber White Icon">
                                         </div>
                                     </div>
                                 </div>
@@ -242,17 +244,17 @@
                                     <h5>Network & OS</h5>
                                     <p><small>Code. Build. Solve. Grow</small></p>
                                     <div class="competency-icons my-30 d-none d-md-flex">
-                                        <div class="comptency-arrow-container ">
+                                        <div class="competency-arrow-container ">
                                             <img class="competency-arrow" src="images/competency-arrow.svg" width="25"
-                                                alt="">
+                                                alt="Competency Arrow 7">
                                             <img class="competency-arrow-white" src="images/competency-arrow-white.svg"
-                                                width="25" alt="">
+                                                width="25" alt="Competency Arrow White 7">
                                         </div>
-                                        <div class="compentency-icon-container">
+                                        <div class="competency-icon-container">
                                             <img class="competency-icon" src="images/operatingsystemsiconblu.svg"
-                                                height="100px" alt="">
+                                                height="100px" alt="Operating System Icon">
                                             <img class="competency-icon-white" src="images/operatingsystemsiconwht.svg"
-                                                height="100px" alt="">
+                                                height="100px" alt="Operating System White Icon">
                                         </div>
                                     </div>
                                 </div>

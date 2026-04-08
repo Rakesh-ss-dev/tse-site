@@ -89,10 +89,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 mx-auto">
-                            <img src="images/prompt.jpg" width="100%" alt="">
+                            <img src="images/prompt.jpg" width="100%" alt="Prompt Engineering Image">
                         </div>
                         <div class="col-md-6 ms-auto my-auto">
-                            <img src="images/GenAIBanner2.svg" width="100%" alt="">
+                            <img src="images/GenAIBanner2.svg" width="100%" alt="Workforce ">
                             <h5 class="text-white mt-3">To drive corporate innovation and empower workforce with
                                 tomorrow's
                                 skills TODAY</h5>
@@ -110,7 +110,8 @@
                     <div class="row align-items-end">
                         <div class="col-md-6 d-flex flex-column">
                             <div class="position-relative">
-                                <img class="mx-auto" src="images/genaiinsoftwaretesting.jpg" width="70%" alt="">
+                                <img class="mx-auto" src="images/genaiinsoftwaretesting.jpg" width="70%"
+                                    alt="Generative AI for Software testing">
                                 <h3 class="text-white text-absolute">And Prompt Engineering</h3>
                             </div>
                             <p class="text-white">Generative AI and Prompt Engineering are transforming the way we work,

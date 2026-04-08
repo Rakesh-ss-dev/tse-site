@@ -38,7 +38,7 @@ $row=$res->fetch_assoc();
         <div class="container-fluid py-2">
             <div class="row">
                 <div class="ms-3">
-                    <h3 class="mb-4 h4 font-weight-bolder">Comptency Category</h3>
+                    <h3 class="mb-4 h4 font-weight-bolder">competency Category</h3>
                 </div>
                 <div class="container">
                     <div class="row w-100 h-100 d-flex align-items-center justify-content-center">

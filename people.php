@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 me-auto">
-                        <img src="images/competencies.svg" width="100%" alt="">
+                        <img src="images/competencies.svg" width="100%" alt="People Competencies">
                     </div>
                     <div class="col-md-6 my-auto">
                         <h1 class="text-white">When Learning is Infinite,
@@ -38,7 +38,7 @@
             </div>
         </section>
         <section class="text-light py-100 position-relative jarallax" aria-label="section">
-            <img src="images/tsepeoplebg.jpg" class="jarallax-img" alt="">
+            <img src="images/tsepeoplebg.jpg" class="jarallax-img" alt="TSE People Background">
             <div class="gradient-edge-top"></div>
             <div class="gradient-edge-bottom"></div>
             <div class="sw-overlay op-8"></div>
@@ -51,9 +51,9 @@
                         <div class="accordion accordion-flush" id="people-accordion">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button text-white" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#people-accordion-One"
-                                        aria-expanded="true" aria-controls="people-accordion-One">
+                                    <button class="accordion-button text-white" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#people-accordion-One" aria-expanded="true"
+                                        aria-controls="people-accordion-One">
                                         Non-Technology Training Services
                                     </button>
                                 </h2>
@@ -239,9 +239,9 @@
                         <div class="accordion accordion-flush" id="module-accordion">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button text-white" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#module-accordion-One"
-                                        aria-expanded="true" aria-controls="module-accordion-One">
+                                    <button class="accordion-button text-white" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#module-accordion-One" aria-expanded="true"
+                                        aria-controls="module-accordion-One">
                                         Communication Development Programs
                                     </button>
                                 </h2>
@@ -407,7 +407,7 @@
     </main>
     <?php include('footer.php') ?>
     <!-- Bootstrap JavaScript Libraries -->
-     <?php include('scripts.php') ?>
+    <?php include('scripts.php') ?>
     <script src="js/vendors.js"></script>
     <script src="js/designesia.js"></script>
     <script src="js/countdown-custom.js"></script>

@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 me-auto">
-                        <img src="images/competencies.svg" width="100%" alt="">
+                        <img src="images/competencies.svg" width="100%" alt="Process Competencies">
                     </div>
                     <div class="col-md-6 my-auto">
                         <h1 class="text-white">When Learning is Infinite,
@@ -37,15 +37,12 @@
             </div>
         </section>
         <section class="text-light py-100 position-relative jarallax" aria-label="section">
-            <img src="images/2.webp" class="jarallax-img" alt="">
+            <img src="images/2.webp" class="jarallax-img" alt="content background">
             <div class="gradient-edge-top"></div>
             <div class="gradient-edge-bottom"></div>
             <div class="sw-overlay op-8"></div>
             <div class="container position-relative z-4">
                 <div class="row gap-3 gap-md-0">
-                    <!-- <div class="col-md-4">
-                         <img src="images/tsecolor.png" width="100%" alt="">
-                    </div> -->
                     <div class="col-md-8 mx-auto">
                         <div class="accordion accordion-flush" id="people-accordion">
                             <div class="accordion-item">

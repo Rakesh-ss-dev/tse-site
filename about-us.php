@@ -39,7 +39,7 @@
                                     </h4>
                                     <p class="text-white m-0 small">In a world where technology never stands still,
                                         neither do we. For the past 15 years, we have continuously adapted, upgraded,
-                                        and innovated to ensure our corporate training remains relevant, impactfAt TSE,
+                                        and innovated to ensure our corporate training remains relevant, impact.At TSE,
                                         we're not just delivering training - we're shaping the future of enterprise
                                         learning. With 15+ years of experience and a global network of expert trainers,
                                         we partner with leading organizations to build future-ready teams equipped with
@@ -48,7 +48,7 @@
                                         industry-leading.</p>
                                 </div>
                                 <div class="col-md-2">
-                                    <img src="images/about-caption.svg" width="100%" alt="">
+                                    <img src="images/about-caption.svg" width="100%" alt="TSE Legacy">
                                 </div>
                             </div>
                         </div>
@@ -67,37 +67,39 @@
                             <div class="row align-items-stretch justify-content-around gap-4 p-3">
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about1.svg" alt="">
+                                        <img src="images/about1.svg" alt="15+ years of enterprise training expertise">
                                         <p class="text-white m-0">15+ years of enterprise training expertise</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about2.svg" alt="">
+                                        <img src="images/about2.svg" alt="Customized programs for diverse industries">
                                         <p class="text-white m-0">Customized programs for diverse industries</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about3.svg" alt="">
+                                        <img src="images/about3.svg"
+                                            alt="Scalable delivery: Online, Hybrid, ILT & Blended">
                                         <p class="text-white m-0">Scalable delivery: Online, Hybrid, ILT & Blended</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about4.svg" alt="">
+                                        <img src="images/about4.svg" alt="2000+ certified trainers globally">
                                         <p class="text-white m-0">2000+ certified trainers globally</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about5.svg" alt="">
+                                        <img src="images/about5.svg" alt="Hands-on, application-based learning">
                                         <p class="text-white m-0">Hands-on, application-based learning</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about6.svg" alt="">
+                                        <img src="images/about6.svg"
+                                            alt="Training aligned to business goals & tech evolution">
                                         <p class="text-white m-0">Training aligned to business goals & tech evolution
                                         </p>
                                     </div>
@@ -159,10 +161,10 @@
                                     enterprise success.</p>
                             </div>
                             <div class="col-md-5">
-                                <img src="images/vision.png" width="100%" alt="">
+                                <img src="images/vision.png" width="100%" alt="Vision Statement">
                             </div>
                             <div class="col-md-5">
-                                <img src="images/our-edge.png" width="100%" alt="">
+                                <img src="images/our-edge.png" width="100%" alt="Our Edge Statement">
                             </div>
                             <div class="col-md-5 my-auto">
                                 <h3 class="text-white">Our Edge: The Trainers Behind It All</h3>

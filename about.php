@@ -53,7 +53,8 @@
                                         <p>As new technologies emerge, we revamp our training to match industry
                                             demands - be it Cloud, AI, DevOps, Cybersecurity, or Data Science.</p>
                                     </div>
-                                    <div class="col-4"><img src="images/evolving.svg" width="100%" alt=""></div>
+                                    <div class="col-4"><img src="images/evolving.svg" width="100%"
+                                            alt="Evolving with Technology"></div>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +66,8 @@
                                         <p>Our customized, hands-on approach ensures enterprises get training that
                                             aligns with real-world applications and business goals.</p>
                                     </div>
-                                    <div class="col-4"><img src="images/about-2.svg" width="100%" alt=""></div>
+                                    <div class="col-4"><img src="images/about-2.svg" width="100%"
+                                            alt="Agile Training Methodologies"></div>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +79,8 @@
                                         <p>With 2,000+ expert trainers worldwide, we stay ahead by investing in our
                                             trainers, keeping them updated and ready to deliver the best.</p>
                                     </div>
-                                    <div class="col-4"><img src="images/evolving.svg" width="100%" alt=""></div>
+                                    <div class="col-4"><img src="images/evolving.svg" width="100%"
+                                            alt="Trainer Excellence"></div>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +92,8 @@
                                         <p>Whether it's freshers, mid-level, or senior professionals, we provide
                                             tailored programs to upskill workforces effectively.</p>
                                     </div>
-                                    <div class="col-4"><img src="images/about-2.svg" width="100%" alt=""></div>
+                                    <div class="col-4"><img src="images/about-2.svg" width="100%"
+                                            alt="Enterprise-Centric Learning"></div>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +111,7 @@
                                 <div class="icon"></div>
                                 <div class="date-content">
                                     <div class="date-outer">
-                                        <img src="images/analyze.svg" alt="" />
+                                        <img src="images/analyze.svg" alt="How We Do It | Analyze" />
                                     </div>
                                 </div>
                                 <div class="timeline-content">
@@ -128,7 +132,7 @@
                                 <div class="icon"></div>
                                 <div class="date-content">
                                     <div class="date-outer">
-                                        <img src="images/create.svg" alt="" />
+                                        <img src="images/create.svg" alt="How We Do It | Create" />
                                     </div>
                                 </div>
                                 <div class="timeline-content">
@@ -149,7 +153,7 @@
                                 <div class="icon"></div>
                                 <div class="date-content">
                                     <div class="date-outer">
-                                        <img src="images/deploy.svg" alt="" />
+                                        <img src="images/deploy.svg" alt="How We Do It | Deploy" />
                                     </div>
                                 </div>
                                 <div class="timeline-content">
@@ -180,7 +184,7 @@
                         <div class="item-content">
                             <div class="row">
                                 <div class="col-md-3 ms-auto">
-                                    <img src="images/Discovery.svg" width="100%" alt="">
+                                    <img src="images/Discovery.svg" width="100%" alt="TSE Work Flow | Discovery">
                                 </div>
                                 <div class="col-md-7 my-auto me-auto">
                                     <ul class="list-unstyled text-white">
@@ -196,7 +200,7 @@
                         <div class="item-content">
                             <div class="row">
                                 <div class="col-md-3 ms-auto">
-                                    <img src="images/Design.svg" width="100%" alt="">
+                                    <img src="images/Design.svg" width="100%" alt="TSE Work Flow | Design">
                                 </div>
                                 <div class="col-md-7 my-auto me-auto">
                                     <ul class="list-unstyled text-white">
@@ -214,7 +218,7 @@
                             <div class="">
                                 <div class="row">
                                     <div class="col-md-3 ms-auto">
-                                        <img src="images/Readiness.svg" width="100%" alt="">
+                                        <img src="images/Readiness.svg" width="100%" alt="TSE Work Flow | Readiness">
                                     </div>
                                     <div class="col-md-7 my-auto me-auto">
                                         <ul class="list-unstyled text-white">
@@ -234,7 +238,7 @@
                         <div class="item-content">
                             <div class="row">
                                 <div class="col-md-3 ms-auto">
-                                    <img src="images/Delivery.svg" width="100%" alt="">
+                                    <img src="images/Delivery.svg" width="100%" alt="TSE Work Flow | Delivery">
                                 </div>
                                 <div class="col-md-7 my-auto me-auto">
                                     <ul class="list-unstyled text-white">

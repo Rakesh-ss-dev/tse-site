@@ -29,16 +29,18 @@
                     <div class="col-10 mx-auto col-md-6 py-75">
                         <div class="d-flex flex-column gap-2 justify-content-between">
                             <div class="mb-3">
-                                <img src="images/address_icon.svg" class="mb-2" width="30" alt="">
+                                <img src="images/address_icon.svg" class="mb-2" width="30" alt="Address Icon">
                                 <h5 class="text-white">Address:</h5>
-                                <p class="text-white mb-0">The Skill Enhancers,<br> Raghuma Towers Hitech City Rd,<br> Phase
+                                <p class="text-white mb-0">The Skill Enhancers,<br> Raghuma Towers Hitech City Rd,<br>
+                                    Phase
                                     2, Kavuri Hills, Madhapur,<br> Hyderabad, Telangana 500081</p>
                             </div>
                             <div class="mb-3">
                                 <img src="images/call_icon.svg" class="mb-2" width="30" alt="">
                                 <h5 class="text-white">Phone:</h5>
                                 <p class="text-white mb-0">040-40203358, 040-40273355</p>
-                                <a href="tel:+91 93911 33223" class="text-white text-decoration-none mb-3">Call: +91 93911 33223</a>
+                                <a href="tel:+91 93911 33223" class="text-white text-decoration-none mb-3">Call: +91
+                                    93911 33223</a>
                             </div>
                             <div>
                                 <img src="images/email_icon.svg" class="mb-2" width="30" alt="">
@@ -104,8 +106,8 @@
                 <p class="text-white text-center mt-3 mb-3">Tseedu | &copy 2026 Powered by TSE, All rights reserved</p>
 
                 <div class="d-flex justify-content-between flex-column flex-md-row">
-                  <a href="tel:+91 93911 33223" class="text-white text-decoration-none">Call: +91 93911 33223</a>
-                  <a href="mailto:info@tseedu.com" class="text-white text-decoration-none">Email : info@tseedu.com</a>
+                    <a href="tel:+91 93911 33223" class="text-white text-decoration-none">Call: +91 93911 33223</a>
+                    <a href="mailto:info@tseedu.com" class="text-white text-decoration-none">Email : info@tseedu.com</a>
                 </div>
             </div>
         </div>

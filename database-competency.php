@@ -124,7 +124,7 @@
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            
+
                                             <div class="modal-body">
                                                 <div class="mb-3">
                                                     <input type="text" class="form-control" id="name"
@@ -158,13 +158,13 @@
                         <div class="col-md-3 mx-auto">
                             <ul class="list-unstyled">
                                 <li class="my-30"><img class="competency-s-icon" src="images/customizedicon.svg"
-                                        height="20px" alt="">
+                                        height="20px" alt="Customized Icon">
                                     Customized Course</li>
                                 <li class="my-30"><img class="competency-s-icon" src="images/livecodeicon.svg"
-                                        height="20px" alt="">
+                                        height="20px" alt="Live Code Icon">
                                     Live code analysis</li>
                                 <li class="my-30"><img class="competency-s-icon" src="images/cloudicon.svg"
-                                        height="20px" alt="">
+                                        height="20px" alt="Cloud Icon">
                                     CloudLabs</li>
                             </ul>
                         </div>

@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-black4">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img id="logo" src="images/logo.svg" alt="" />
+                <img id="logo" src="images/logo.svg" alt="TSE Header Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -89,10 +89,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 mx-auto">
-                            <img src="images/AgenticAi.jpg" width="100%" alt="">
+                            <img src="images/AgenticAi.jpg" width="100%" alt="Agentic AI">
                         </div>
                         <div class="col-md-6 ms-auto my-auto">
-                            <img src="images/GenAIBanner2.svg" width="100%" alt="">
+                            <img src="images/GenAIBanner2.svg" width="100%" alt="Generative AI Banner">
                             <h5 class="text-white mt-3">To drive corporate innovation and empower workforce with
                                 tomorrow's
                                 skills TODAY</h5>
@@ -110,7 +110,8 @@
                     <div class="row align-items-end">
                         <div class="col-md-6 d-flex flex-column">
                             <div class="position-relative">
-                                <img class="mx-auto" src="images/genaiinsoftwaretesting.jpg" width="70%" alt="">
+                                <img class="mx-auto" src="images/genaiinsoftwaretesting.jpg" width="70%"
+                                    alt="Generative AI For Software Testing">
                                 <h3 class="text-white text-absolute">Agentic AI</h3>
                             </div>
                             <p class="text-white">Agentic AI is revolutionizing automation, enabling AI systems to
@@ -227,7 +228,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-7 mx-auto">
-                                    <img src="images/fundamentals.png" width="100%" alt="">
+                                    <img src="images/fundamentals.png" width="100%" alt="AI Fundamentals">
                                 </div>
                             </div>
                         </div>
@@ -379,7 +380,7 @@
                 <div class="container py-4">
                     <div
                         class="d-flex justify-content-between align-items-start align-items-md-center flex-md-row flex-column gap-3 gap-md-0">
-                        <div><img src="images/logo.svg" width="50px" alt=""></div>
+                        <div><img src="images/logo.svg" width="50px" alt="TSE Logo"></div>
                         <div>
                             <ul class="text-white list-unstyled d-flex flex-md-row flex-column gap-3 m-0">
                                 <li>

@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-body-transparent">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img id="logo" src="images/logo.svg" alt="" />
+                <img id="logo" src="images/logo.svg" alt="Header Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -39,7 +39,7 @@
                             tabindex="-1" aria-labelledby="reachUsLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content bg-dark-blue">
-                                <form onsubmit="sendToWhatsApp(event)" action="">
+                                    <form onsubmit="sendToWhatsApp(event)" action="">
                                         <div class="modal-header">
                                             <h1 class="modal-title fs-5 text-white" id="reachUsLabel">Reach
                                                 Us</h1>
@@ -84,10 +84,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="images/GenAIBanner1.jpg" width="100%" alt="">
+                            <img src="images/GenAIBanner1.jpg" width="100%" alt="Generative AI Banner">
                         </div>
                         <div class="col-md-6 ms-auto my-auto">
-                            <img src="images/GenAIBanner2.svg" width="100%" alt="">
+                            <img src="images/GenAIBanner2.svg" width="100%" alt="Generative AI Banner 2">
                             <h5 class="text-white mt-3">To drive corporate innovation and empower workforce with
                                 tomorrow's
                                 skills TODAY</h5>
@@ -105,7 +105,8 @@
                     <div class="row align-items-end">
                         <div class="col-md-6 d-flex flex-column">
                             <div class="position-relative">
-                                <img class="mx-auto" src="images/genaiinsoftwaretesting.jpg" width="70%" alt="">
+                                <img class="mx-auto" src="images/genaiinsoftwaretesting.jpg" width="70%"
+                                    alt="Generative AI for Software Testing">
                                 <h3 class="text-white text-absolute">for Software Testing</h3>
                             </div>
                             <p class="text-white">Software testing is evolving, and Generative AI is at the forefront
@@ -225,7 +226,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-7 mx-auto">
-                                    <img src="images/fundamentals.png" width="100%" alt="">
+                                    <img src="images/fundamentals.png" width="100%" alt="Fundamentals Image">
                                 </div>
                             </div>
                         </div>
@@ -350,7 +351,7 @@
                 <div class="container py-4">
                     <div
                         class="d-flex justify-content-between align-items-start align-items-md-center flex-md-row flex-column gap-3 gap-md-0">
-                        <div><img src="images/logo.svg" width="50px" alt=""></div>
+                        <div><img src="images/logo.svg" width="50px" alt="Footer Logo"></div>
                         <div>
                             <ul class="text-white list-unstyled d-flex flex-md-row flex-column gap-3 m-0">
                                 <li>
@@ -372,7 +373,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script>
+    <script>
         function sendToWhatsApp(event) {
             event.preventDefault();
             const form = event.target;

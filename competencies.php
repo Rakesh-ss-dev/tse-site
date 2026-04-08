@@ -18,7 +18,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 me-auto">
-            <img src="images/competencies.svg" width="100%" alt="">
+            <img src="images/competencies.svg" width="100%" alt="Competencies Header">
           </div>
           <div class="col-md-6 my-auto">
             <h1 class="text-white">When Learning is Infinite,
@@ -52,13 +52,15 @@
                 <h5>Generative & Agentic AI</h5>
                 <p><small>Train. Manage. Optimize. Scale.</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow White">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/genaiicon.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/genaiiconwht.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/genaiicon.svg" height="100px" alt="Generative AI Icon">
+                    <img class="competency-icon-white" src="images/genaiiconwht.svg" height="100px"
+                      alt="Generative AI Icon White">
                   </div>
                 </div>
               </div>
@@ -70,13 +72,15 @@
                 <h5>Cloud Computing</h5>
                 <p><small>Learn. Deploy. Scale. Excel</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow 1">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow White 1">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/cloud-blue.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/cloud-white.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/cloud-blue.svg" height="100px" alt="Cloud Icon">
+                    <img class="competency-icon-white" src="images/cloud-white.svg" height="100px"
+                      alt="Cloud Icon White">
                   </div>
                 </div>
               </div>
@@ -88,13 +92,16 @@
                 <h5>Data Science & Analytics</h5>
                 <p><small>Code. Build. Solve. Grow</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow 2">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow white 2">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/datascienceiconblu.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/datascienceiconwht.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/datascienceiconblu.svg" height="100px"
+                      alt="Data Science Icon">
+                    <img class="competency-icon-white" src="images/datascienceiconwht.svg" height="100px"
+                      alt="Data Science Icon White">
                   </div>
                 </div>
               </div>
@@ -106,13 +113,16 @@
                 <h5>Programming</h5>
                 <p><small>Code. Build. Solve. Grow</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow 3">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow White 3">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/programingiconblu.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/programingiconwht.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/programingiconblu.svg" height="100px"
+                      alt="Programming Icon ">
+                    <img class="competency-icon-white" src="images/programingiconwht.svg" height="100px"
+                      alt="Programming ICon White">
                   </div>
                 </div>
               </div>
@@ -124,13 +134,15 @@
                 <h5>Databases</h5>
                 <p><small>Train. Manage. Optimize. Scale.</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow 4">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow white 4">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/databaseiconblu.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/databaseiconwht.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/databaseiconblu.svg" height="100px" alt="Database Icon">
+                    <img class="competency-icon-white" src="images/databaseiconwht.svg" height="100px"
+                      alt="Database Icon White">
                   </div>
                 </div>
               </div>
@@ -142,13 +154,16 @@
                 <h5>Network & OS</h5>
                 <p><small>Code. Build. Solve. Grow</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow 5">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow White 5">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/operatingsystemsiconblu.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/operatingsystemsiconwht.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/operatingsystemsiconblu.svg" height="100px"
+                      alt="Operating System Icon">
+                    <img class="competency-icon-white" src="images/operatingsystemsiconwht.svg" height="100px"
+                      alt="Operating System White Icon">
                   </div>
                 </div>
               </div>
@@ -160,13 +175,15 @@
                 <h5>Testing & QA</h5>
                 <p><small>Defend. Protect. Secure. Lead.</small></p>
                 <div class="competency-icons my-30">
-                  <div class="comptency-arrow-container">
-                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="">
-                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25" alt="">
+                  <div class="competency-arrow-container">
+                    <img class="competency-arrow" src="images/competency-arrow.svg" width="25" alt="Competency Arrow 6">
+                    <img class="competency-arrow-white" src="images/competency-arrow-white.svg" width="25"
+                      alt="Competency Arrow white 6">
                   </div>
-                  <div class="compentency-icon-container">
-                    <img class="competency-icon" src="images/testingiconblu.svg" height="100px" alt="">
-                    <img class="competency-icon-white" src="images/testingiconwht.svg" height="100px" alt="">
+                  <div class="competency-icon-container">
+                    <img class="competency-icon" src="images/testingiconblu.svg" height="100px" alt="Testing Icon">
+                    <img class="competency-icon-white" src="images/testingiconwht.svg" height="100px"
+                      alt="Testing Icon White">
                   </div>
                 </div>
               </div>

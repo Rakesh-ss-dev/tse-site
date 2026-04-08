@@ -66,8 +66,9 @@
                             business needs.
                           </p>
                           <a class="text-light-blue mb-3 text-decoration-none fw-bold know-more-link"
-                            href="competencies.php">Know
-                            More <img src="images/link_arrow.svg" alt="" /></a>
+                            href="competencies.php"
+                            aria-label="Read more about our corporate training on Technology">Know
+                            More <img class="ps-2" src="images/link_arrow.svg" alt="TSE Competencies" /></a>
                         </div>
                     </section>
                     <section id="tab2" class="item" data-title="People Development">
@@ -78,9 +79,9 @@
                             business communication, leadership, critical thinking, and
                             workplace etiquette, ensuring they thrive in corporate
                             environments. </p>
-                          <a class="text-light-blue mb-3 text-decoration-none fw-bold know-more-link"
-                            href="people.php">Know
-                            More <img src="images/link_arrow.svg" alt="" /></a>
+                          <a class="text-light-blue mb-3 text-decoration-none fw-bold know-more-link" href="people.php"
+                            aria-label="Read more about our corporate training on People Development">Know
+                            More <img class="ps-2" src="images/link_arrow.svg" alt="People Link" /></a>
                         </div>
                       </div>
                     </section>
@@ -122,8 +123,8 @@
                               </div>
                             </div>
                             <a class="text-light-blue mb-3 text-decoration-none fw-bold know-more-link"
-                              href="process.php">Know
-                              More <img src="images/link_arrow.svg" alt="" /></a>
+                              href="process.php" aria-label="Read more about our corporate training on Process">Know
+                              More <img class="ps-2" src="images/link_arrow.svg" alt="Process Link" /></a>
                           </div>
                         </div>
                       </div>
@@ -151,7 +152,7 @@
                 what's next.</p>
             </div>
             <div class="col-md-5 mx-auto">
-              <img src="images/word-cloud-tse.webp" width="100%" alt="">
+              <img src="images/word-cloud-tse.webp" width="100%" alt="TSE Word Cloud">
             </div>
           </div>
         </div>
@@ -170,7 +171,7 @@
                       <button class="nav-link active" id="industry-best-trainers-tab" data-bs-toggle="tab"
                         data-bs-target="#industry-best-trainers-tab-pane" type="button" role="tab"
                         aria-controls="industry-best-trainers-tab-pane" aria-selected="true">
-                        <h6>Industry Best <strong>Trainers</strong></h6>
+                        <h4 class="h6">Industry Best <strong>Trainers</strong></h4>
                       </button>
                     </a>
                   </li>
@@ -179,7 +180,7 @@
                       <button class="nav-link" id="relevant-material-tab" data-bs-toggle="tab"
                         data-bs-target="#relevant-material-tab-pane" type="button" role="tab"
                         aria-controls="relevant-material-tab-pane" aria-selected="false">
-                        <h6>Relevant <strong>Material</strong></h6>
+                        <h4 class="h6">Relevant <strong>Material</strong></h4>
                       </button>
                     </a>
                   </li>
@@ -188,7 +189,7 @@
                       <button class="nav-link" id="excellent-cloud-labs-tab" data-bs-toggle="tab"
                         data-bs-target="#excellent-cloud-labs-tab-pane" type="button" role="tab"
                         aria-controls="excellent-cloud-labs-tab-pane" aria-selected="false">
-                        <h6>Excellent <strong>Cloud Labs</strong></h6>
+                        <h4 class="h6">Excellent <strong>Cloud Labs</strong></h4>
                       </button>
                     </a>
                   </li>
@@ -197,7 +198,7 @@
                       <button class="nav-link" id="assessments-n-reporting-tab" data-bs-toggle="tab"
                         data-bs-target="#assessments-n-reporting-tab-pane" type="button" role="tab"
                         aria-controls="assessments-n-reporting-tab-pane" aria-selected="false">
-                        <h6>Assessments & <strong>Reporting</strong></h6>
+                        <h4 class="h6">Assessments & <strong>Reporting</strong></h4>
                       </button>
                     </a>
                   </li>
@@ -205,7 +206,7 @@
                     <a href="#tab-5" class="p-0 text-decoration-none">
                       <button class="nav-link" id="lms-tab" data-bs-toggle="tab" data-bs-target="#lms-tab-pane"
                         type="button" role="tab" aria-controls="lms-tab-pane" aria-selected="false">
-                        <h6><strong> LMS</strong></h6>
+                        <h4 class="h6"><strong> LMS</strong></h4>
                       </button>
                     </a>
                   </li>
@@ -233,7 +234,8 @@
                     </div>
                     <div class="col-md-5 my-auto">
                       <div class="position-relative">
-                        <img src="images/industry-trainers.webp" width="100%" alt="" />
+                        <img src="images/industry-trainers.webp" width="100%"
+                          alt="Industry-Leading Corporate Trainers Driving Excellence" />
                         <div class="tse-tab-content-p">
                           <p class="m-0">
                             Partner with us to equip your teams with cutting-edge skills and strategic knowledge for
@@ -265,7 +267,8 @@
                     </div>
                     <div class="col-md-5 my-auto">
                       <div class="position-relative">
-                        <img src="images/related-material.png" width="100%" alt="" />
+                        <img src="images/related-material.png" width="100%"
+                          alt="Relevant Material Designed for Maximum Impact" />
                         <div class="tse-tab-content-p">
                           <p class="m-0">
                             Stay ahead with cutting-edge learning materials that drive growth and success.
@@ -296,7 +299,8 @@
                     </div>
                     <div class="col-md-5 my-auto">
                       <div class="position-relative">
-                        <img src="images/excellent-cloud-labs.png" width="100%" alt="" />
+                        <img src="images/excellent-cloud-labs.png" width="100%"
+                          alt="Excellent Cloud Labs for Hands-On Learning" />
                         <div class="tse-tab-content-p">
                           <p class="m-0">
                             Experience the future of learning with highly immersive cloud labs.
@@ -328,7 +332,8 @@
                     </div>
                     <div class="col-md-5 my-auto">
                       <div class="position-relative">
-                        <img src="images/accessment-n-reporting.png" width="100%" alt="" />
+                        <img src="images/accessment-n-reporting.png" width="100%"
+                          alt="Comprehensive Assessment & Reporting for Measurable Growth" />
                         <div class="tse-tab-content-p">
                           <p class="m-0">
                             Gain clear, actionable insights to drive continuous improvement and business success.
@@ -362,7 +367,7 @@
                     </div>
                     <div class="col-md-5 my-auto">
                       <div class="position-relative">
-                        <img src="images/LMS.png" width="100%" alt="" />
+                        <img src="images/LMS.png" width="100%" alt="Advanced LMS for Seamless Learning Management" />
                         <div class="tse-tab-content-p">
                           <p class="m-0">
                             Empower your workforce with a smart, efficient, and data-driven LMS.
@@ -385,7 +390,7 @@
           <div class="col-md-10 mx-auto col-11">
             <div class="row gap-3 gap-md-0">
               <div class="col-md-5">
-                <img src="images/tse-graphic.png" width="100%" alt="" />
+                <img src="images/tse-graphic.png" width="100%" alt="TSE Graphics" />
               </div>
               <div class="col-md-6 ms-auto my-auto">
                 <p class="text-white tse-dark-p">
@@ -395,7 +400,7 @@
                   the world.
                 </p>
                 <div class="d-flex justify-content-between mb-5 mb-md-0 align-items-center">
-                  <img src="images/tse-dark-icon.svg" alt="" />
+                  <img src="images/tse-dark-icon.svg" alt="Map Icon" />
                   <p class="text-white m-0">EMEA</p>
                   <p class="text-white m-0">NAMER</p>
                   <p class="text-white m-0">LATAM</p>
@@ -425,12 +430,13 @@
                     customer-centric services that meet the evolving needs of our
                     clients.
                   </p>
-                  <a class="text-light-blue mb-3 text-decoration-none fw-bold know-more-link" href="about.php">Know
-                    More <img src="images/link_arrow.svg" alt="" /></a>
+                  <a class="text-light-blue mb-3 text-decoration-none fw-bold know-more-link" href="about.php"
+                    aria-label="Read more About us">Know
+                    More <img class="ps-2" src="images/link_arrow.svg" alt="TSE Legacy Link" /></a>
                 </div>
               </div>
               <div class="col-md-4 ms-md-auto col-9 mx-auto mb-3">
-                <img src="images/tse_legacy.png" width="100%" alt="" />
+                <img src="images/tse_legacy.png" width="100%" alt="TSE Legacy" />
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row justify-content-stretch">
       <div class="col-md-4">
-        <a href="/" aria-label="Home Page">
+        <a href="./" aria-label="Home Page">
           <img src="images/TSEFooterLogo.webp" width="100%" alt="Footer Logo" />
         </a>
       </div>

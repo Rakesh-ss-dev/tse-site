@@ -201,7 +201,7 @@ if ($merchantOrderId) {
                         </div>
                     </div>
 
-                    <a href="/" class="btn btn-primary btn-lg w-100 rounded-3 btn-status">
+                    <a href="./" class="btn btn-primary btn-lg w-100 rounded-3 btn-status">
                         <i class="bi bi-house-door-fill me-2"></i>Back to Home
                     </a>
 

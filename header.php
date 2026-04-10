@@ -3,7 +3,7 @@
 <header>
   <nav id="header" class="navbar navbar-expand-sm navbar-dark">
     <div class="container col-md-10 col-11">
-      <a class="navbar-brand" href="/" aria-label="Home Page">
+      <a class="navbar-brand" href="./" aria-label="Home Page">
         <img id="logo" src="images/logo.svg" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"

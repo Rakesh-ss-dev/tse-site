@@ -21,7 +21,7 @@
     <?php include('floating-icon.php') ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black4">
         <div class="container">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="./">
                 <img id="logo" src="images/logo.svg" alt="" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

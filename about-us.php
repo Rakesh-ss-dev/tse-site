@@ -38,12 +38,15 @@
                                     <h4 class="text-light-blue">Empowering Enterprises Through Training That Transforms
                                     </h4>
                                     <p class="text-white m-0 small">In a world where technology never stands still,
-                                        neither do we. For the past 16 years, we have continuously adapted, upgraded,
+                                        neither do we. Since our inception in 2009, we have continuously adapted,
+                                        upgraded,
                                         and innovated to ensure our corporate training remains relevant, impact.At TSE,
                                         we're not just delivering training - we're shaping the future of enterprise
-                                        learning. With 16+ years of experience and a global network of expert trainers,
-                                        we partner with leading organizations to build future-ready teams equipped with
-                                        cutting-edge skills. Our mission is simple: to help enterprises adapt, innovate,
+                                        learning. Since 2009, we have partnered with leading organizations to build
+                                        future-ready teams. Backed by nearly two decades of experience and a global
+                                        network of expert trainers, we specialize in equipping workforces with
+                                        cutting-edge skills for a rapidly evolving landscape. Our mission is simple: to
+                                        help enterprises adapt, innovate,
                                         and lead through high-impact, scalable, and tailored training solutions.ul, and
                                         industry-leading.</p>
                                 </div>
@@ -68,7 +71,8 @@
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
                                         <img src="images/about1.svg" alt="16 years of enterprise training expertise">
-                                        <p class="text-white m-0">16 years of enterprise training expertise</p>
+                                        <p class="text-white m-0">Nearly two decades of enterprise training expertise
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">

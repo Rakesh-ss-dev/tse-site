@@ -32,7 +32,7 @@
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h2 class="text-white">TSE COMPETENCIES</h2>
-            <p class="text-white">For the past 15 years, we have been at the forefront of enterprise training,
+            <p class="text-white">For the past 16 years, we have been at the forefront of enterprise training,
               delivering cutting-edge
               learning solutions to businesses worldwide. From empowering fresh talent to upskilling seasoned
               professionals, our journey has been about transforming careers and driving innovation. With a global

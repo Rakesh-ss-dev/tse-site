@@ -29,7 +29,7 @@
                         <div class="col-md-11 px-4 mx-auto">
                             <h3 class="text-white">TSE LEGACY</h3>
                             <p class="text-white">In a world where technology never stands still, neither do we. For the
-                                past 15
+                                past 16
                                 years, we<br> have
                                 continuously adapted, upgraded, and innovated to ensure our corporate <br>training
                                 remains

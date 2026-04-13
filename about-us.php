@@ -38,10 +38,10 @@
                                     <h4 class="text-light-blue">Empowering Enterprises Through Training That Transforms
                                     </h4>
                                     <p class="text-white m-0 small">In a world where technology never stands still,
-                                        neither do we. For the past 15 years, we have continuously adapted, upgraded,
+                                        neither do we. For the past 16 years, we have continuously adapted, upgraded,
                                         and innovated to ensure our corporate training remains relevant, impact.At TSE,
                                         we're not just delivering training - we're shaping the future of enterprise
-                                        learning. With 15+ years of experience and a global network of expert trainers,
+                                        learning. With 16+ years of experience and a global network of expert trainers,
                                         we partner with leading organizations to build future-ready teams equipped with
                                         cutting-edge skills. Our mission is simple: to help enterprises adapt, innovate,
                                         and lead through high-impact, scalable, and tailored training solutions.ul, and
@@ -67,8 +67,8 @@
                             <div class="row align-items-stretch justify-content-around gap-4 p-3">
                                 <div class="col-md-3">
                                     <div class="d-flex align-items-center gap-3">
-                                        <img src="images/about1.svg" alt="15+ years of enterprise training expertise">
-                                        <p class="text-white m-0">15+ years of enterprise training expertise</p>
+                                        <img src="images/about1.svg" alt="16 years of enterprise training expertise">
+                                        <p class="text-white m-0">16 years of enterprise training expertise</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
